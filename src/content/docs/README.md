@@ -32,7 +32,7 @@ invariant.
 ## Repo layout
 
 The top level reads as the OS. The human PM craft — the playbook a person
-reads — lives under [`playbook/`](./playbook/).
+reads — lives under [`pm-playbook/`](./pm-playbook/).
 
 - [`anchors/`](./anchors/) — the three anchors and their how-to guides:
   [`product-vision.md`](/productos-site/anchors/product-vision/),
@@ -48,22 +48,22 @@ reads — lives under [`playbook/`](./playbook/).
   [`rfc.md`](/productos-site/templates/rfc/).
 - [`skills/`](./skills/) — agent-executable skills (see below).
 - [`writeups/`](./writeups/) — the series (see below).
-- [`playbook/`](./playbook/) — the human PM craft: the six-phase loop, the
+- [`pm-playbook/`](./pm-playbook/) — the human PM craft: the six-phase loop, the
   handbook, and the discipline guides + their templates. Start at
-  [`playbook/index.md`](/productos-site/playbook/).
+  [`pm-playbook/index.md`](/productos-site/pm-playbook/).
 - [`AGENTS.md`](/productos-site/agents/) — the terse, agent-executable operating contract.
   Read this to *execute* the method.
 
 ## The playbook (human PM craft)
 
-- [`playbook/index.md`](/productos-site/playbook/) — the reading guide; start here.
-- [`playbook/product-playbook.md`](/productos-site/playbook/product-playbook/) — the
+- [`pm-playbook/index.md`](/productos-site/pm-playbook/) — the reading guide; start here.
+- [`pm-playbook/product-playbook.md`](/productos-site/pm-playbook/product-playbook/) — the
   six-phase loop (Learn → Decide → Shape → Build → Launch → Sell).
-- [`playbook/pm-handbook.md`](/productos-site/playbook/pm-handbook/) — the handbook.
+- [`pm-playbook/pm-handbook.md`](/productos-site/pm-playbook/pm-handbook/) — the handbook.
 - The discipline guides — decision-framework, delivery-standards, discovery,
   customer-feedback, rice, personas, headline-metric, lifecycle, tools-we-use —
   and the human templates under
-  [`playbook/templates/`](./playbook/templates/) (post-launch-review, research,
+  [`pm-playbook/templates/`](./pm-playbook/templates/) (post-launch-review, research,
   customer-call, ritual-review).
 
 ## Example skills (how to run product using ProductOS)

@@ -21,7 +21,7 @@ The product vision answers three questions in one short document:
 
 1. **Where do we play?** — The territory we own and the territory we don't.
 2. **What do we measure?** — One headline metric that captures whether the vision is being realised. Every shipped feature should move this number or be challenged.
-3. **Who do we build for?** — The personas whose lives we're trying to change. See [Three Personas](/productos-site/playbook/personas/) for how to define yours.
+3. **Who do we build for?** — The personas whose lives we're trying to change. See [Three Personas](/productos-site/pm-playbook/personas/) for how to define yours.
 
 If those three questions aren't answered crisply, the playbook can't help you prioritise — every idea will sound reasonable, because nothing is being excluded.
 
@@ -31,14 +31,14 @@ If those three questions aren't answered crisply, the playbook can't help you pr
 
 | Playbook artifact | How it uses the vision |
 |---|---|
-| [Decision Framework](/productos-site/playbook/decision-framework/) (Signal → Standard → Speed) | "Signal" tests whether an idea aligns with the vision. No alignment = no signal, regardless of how good the idea sounds. |
+| [Decision Framework](/productos-site/pm-playbook/decision-framework/) (Signal → Standard → Speed) | "Signal" tests whether an idea aligns with the vision. No alignment = no signal, regardless of how good the idea sounds. |
 | [Product Principles](/productos-site/anchors/product-principles/) | Principles are how the vision becomes engineering and design standards. They are the vision applied at the level of individual decisions. |
 | [Invariants](/productos-site/anchors/invariants/) | The third anchor. The vision *names* the lines you won't cross; the Invariants doc *owns* and enforces them. They are the kill-clause in the verdict rule. |
 | Product Spec | The product-level container (one per product) ties its outcomes and job list directly back to the vision and its headline metric. |
 | [RFC Template](/productos-site/templates/rfc/) | A ship-coupled RFC's "Strategic Alignment" check confirms the initiative serves the vision and its headline metric. |
-| [RICE](/productos-site/playbook/rice/) | Reach and Impact are scored relative to the personas and metric the vision identifies. |
-| [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) | The headline metric from the vision is the long-arc number reviewed at 60–90 days. |
-| [Roadmap](/productos-site/playbook/product-playbook/#phase-3-shape) | Three-band roadmap is organised around the vision's themes, not features. |
+| [RICE](/productos-site/pm-playbook/rice/) | Reach and Impact are scored relative to the personas and metric the vision identifies. |
+| [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) | The headline metric from the vision is the long-arc number reviewed at 60–90 days. |
+| [Roadmap](/productos-site/pm-playbook/product-playbook/#phase-3-shape) | Three-band roadmap is organised around the vision's themes, not features. |
 | [Agentic Delivery](/productos-site/guides/agentic-delivery/) | The vision's outcomes, the Job Specs, the principles, and the invariants fuse into the **verdict rule** — the all-must-pass gate every change clears. The invariants are its kill-clause. |
 
 If you change the vision, expect everything above to need re-anchoring. That's a feature, not a bug — vision changes are rare and consequential.
@@ -85,7 +85,7 @@ The structure below is what works regardless of product. The *contents* obviousl
 
 Most teams start with a vision sentence and try to back-fit a metric. Do it the other way. Ask: **what is the one number we'd publish to the company every month, and what would the leadership team interrogate us on?** That's your headline. Then write the sentence around it.
 
-For developer tools, time-based metrics (time-to-X) tend to win because they capture both speed and clarity. For consumer products, retention or DAU/MAU ratios. For marketplaces, GMV-per-cohort or take-rate-with-NPS. Pick the one your business actually runs on. See [Headline Metric](/productos-site/playbook/headline-metric/) for a deeper guide.
+For developer tools, time-based metrics (time-to-X) tend to win because they capture both speed and clarity. For consumer products, retention or DAU/MAU ratios. For marketplaces, GMV-per-cohort or take-rate-with-NPS. Pick the one your business actually runs on. See [Headline Metric](/productos-site/pm-playbook/headline-metric/) for a deeper guide.
 
 ### Step 2 — Write the sentence
 
@@ -97,7 +97,7 @@ If it takes more than one of those clauses to differentiate you, the differentia
 
 ### Step 3 — Define 2–4 personas
 
-Most products have a *creator* persona, a *consumer* persona, and a *sponsor* persona — the person who *configures* the product, the person who *uses it day to day*, and the person who *pays for it or is accountable for the outcome*. The names change; the structure rarely does. See [Three Personas](/productos-site/playbook/personas/) for the canonical structure.
+Most products have a *creator* persona, a *consumer* persona, and a *sponsor* persona — the person who *configures* the product, the person who *uses it day to day*, and the person who *pays for it or is accountable for the outcome*. The names change; the structure rarely does. See [Three Personas](/productos-site/pm-playbook/personas/) for the canonical structure.
 
 ### Step 4 — Write down what you are not
 
@@ -115,11 +115,11 @@ The vision lives at `product-vision.md` (this file). It is the only document in 
 
 When the vision changes, update this file first, then propagate downstream in this order:
 1. your invariants doc (`anchors/invariants.md`, if the lines you won't cross changed)
-2. `playbook/personas.md` (if personas changed)
+2. `pm-playbook/personas.md` (if personas changed)
 3. `anchors/product-principles.md` (if "what good looks like" changed)
 4. The product-level **Product Spec** (if outcomes or the job list changed) and any affected **[Job Specs](/productos-site/templates/job-spec/)**
 5. `templates/rfc.md` (the Strategic Alignment prompts in the ship-coupled RFC shape)
-6. `playbook/product-playbook.md` (the anchor doc's framing)
+6. `pm-playbook/product-playbook.md` (the anchor doc's framing)
 
 ---
 
@@ -160,8 +160,8 @@ TTD is the inverse of MTTR for our category. As TTD drops, customer-side through
 
 ## What's next
 
-- **[Product Playbook](/productos-site/playbook/product-playbook/)** — How the six phases use this vision as the spine of every decision.
-- **[Decision Framework](/productos-site/playbook/decision-framework/)** — Signal → Standard → Speed; the operational check against the vision.
-- **[Three Personas](/productos-site/playbook/personas/)** — Canonical structure for the persona section above.
+- **[Product Playbook](/productos-site/pm-playbook/product-playbook/)** — How the six phases use this vision as the spine of every decision.
+- **[Decision Framework](/productos-site/pm-playbook/decision-framework/)** — Signal → Standard → Speed; the operational check against the vision.
+- **[Three Personas](/productos-site/pm-playbook/personas/)** — Canonical structure for the persona section above.
 - **[Product Principles](/productos-site/anchors/product-principles/)** — Turning the vision into engineering standards (the second anchor).
 - **[Invariants](/productos-site/anchors/invariants/)** — The lines you won't cross by construction (the third anchor); the vision names them, this doc owns them.

@@ -19,7 +19,7 @@ export default defineConfig({
           // but pm-handbook has no "escalation" heading/table. We surface the
           // page (link resolves) but tolerate the missing fragment rather than
           // mangle source content. Re-check if pm-handbook gains that anchor.
-          exclude: ['/productos-site/playbook/pm-handbook/#escalation'],
+          exclude: ['/productos-site/pm-playbook/pm-handbook/#escalation'],
         }),
       ],
       social: [
@@ -57,7 +57,7 @@ export default defineConfig({
         },
         {
           label: 'Playbook',
-          autogenerate: { directory: 'playbook' },
+          autogenerate: { directory: 'pm-playbook' },
         },
       ],
     }),

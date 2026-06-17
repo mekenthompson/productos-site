@@ -14,7 +14,7 @@ phase is reversible: if something breaks, the flag goes off.
 
 This is tracker-agnostic — the phase names are what matter, not the tool.
 Release phase is *how widely it's on*; it's distinct from the work's
-**stakes / [path](/productos-site/playbook/decision-framework/)**, which drive *how much GTM
+**stakes / [path](/productos-site/pm-playbook/decision-framework/)**, which drive *how much GTM
 investment, approval depth, and gate rigour* the release gets.
 
 ---
@@ -58,7 +58,7 @@ investment, approval depth, and gate rigour* the release gets.
 - **Flag:** ON for all (still disable-able).
 - **Purpose:** full rollout, announced. The feature is now the default.
 - **After GA:** maintain the flag for a stabilisation window; run the
-  [post-launch reviews](/productos-site/playbook/delivery-standards/#post-ship-reviews) at 2 weeks /
+  [post-launch reviews](/productos-site/pm-playbook/delivery-standards/#post-ship-reviews) at 2 weeks /
   30 days / 60–90 days and make the explicit call (accelerate / iterate /
   pivot / investigate / stop).
 
@@ -89,7 +89,7 @@ Check**. Don't widen the audience until:
 - private-preview feedback is summarised and critical tickets resolved.
 
 Gate depth scales with the stakes. Full gate detail: [Delivery Standards →
-Gates](/productos-site/playbook/delivery-standards/#gates-and-approvals).
+Gates](/productos-site/pm-playbook/delivery-standards/#gates-and-approvals).
 
 ---
 
@@ -103,12 +103,12 @@ prefer changes that are reversible within the phase.
 
 ## Related
 
-- [Delivery Standards](/productos-site/playbook/delivery-standards/) — the full lifecycle and gates
+- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — the full lifecycle and gates
   these phases sit inside.
 - [RFC Template → Rollout](/productos-site/templates/rfc/) — the per-initiative rollout
   table where a team records the audience, exit criteria, and rollback for
   each phase of *this* release.
-- [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) — the reviews that
+- [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) — the reviews that
   run after GA.
 - [Agentic Delivery](/productos-site/guides/agentic-delivery/) — the outcome-UAT and
   production-readiness gates that guard the move past Private Preview.

@@ -222,12 +222,12 @@ Things we genuinely don't know yet, and how we'll resolve them.
 
 - [RFC guide](/productos-site/guides/product-specs/) — how to write this document
 - [Product Vision](/productos-site/anchors/product-vision/) — the anchor every RFC ties back to
-- [Three Personas](/productos-site/playbook/personas/) — persona definitions
-- [Headline Metric](/productos-site/playbook/headline-metric/) — what success is measured against
+- [Three Personas](/productos-site/pm-playbook/personas/) — persona definitions
+- [Headline Metric](/productos-site/pm-playbook/headline-metric/) — what success is measured against
 - [Product Principles](/productos-site/anchors/product-principles/) — the standards the solution must meet
-- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed
+- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal → Standard → Speed
 - [JTBD Guide](/productos-site/guides/jtbd-guide/) — framing the job
-- [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) — the measurement loop after this ships
+- [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) — the measurement loop after this ships
 
 ---
 

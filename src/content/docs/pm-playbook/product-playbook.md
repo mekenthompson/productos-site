@@ -79,15 +79,15 @@ If any of these sound familiar, this playbook is aimed at you. None of it is unu
 Every product decision should be traceable to evidence — customer research, usage data, or structured feedback. Assumptions are starting points, not conclusions.
 
 ### Behaviour
-- **Customer research and interviews** feed a shared evidence base, not individual intuition. Every problem is tagged to a [persona](/productos-site/playbook/personas/).
+- **Customer research and interviews** feed a shared evidence base, not individual intuition. Every problem is tagged to a [persona](/productos-site/pm-playbook/personas/).
 - **Product analytics** are consulted before proposing work (what's used, what's ignored, where do users drop off?)
 - **Customer feedback** is processed systematically — patterns identified, not just loudest voices heard
 - **Post-launch measurement** (from Phase 5) flows back here, closing the loop
 
 ### Assets
-- Customer research repository — [Research Template](/productos-site/playbook/templates/research/), [Customer Call Template](/productos-site/playbook/templates/customer-call/)
+- Customer research repository — [Research Template](/productos-site/pm-playbook/templates/research/), [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/)
 - Product analytics dashboards (adoption, engagement, drop-off)
-- [Customer feedback processing workflow](/productos-site/playbook/customer-feedback/)
+- [Customer feedback processing workflow](/productos-site/pm-playbook/customer-feedback/)
 - Post-launch review data feeding back into evidence base
 
 ### Why It Matters
@@ -106,7 +106,7 @@ Not every good idea deserves engineering time right now. The discipline is choos
 Three checks, every time — **Signal → Standard → Speed**:
 
 1. **Signal** — Does it align with current strategy and the [product vision](/productos-site/anchors/product-vision/)?
-   Is there a real, validated customer need? Which [persona](/productos-site/playbook/personas/) has this problem? What happens if we don't?
+   Is there a real, validated customer need? Which [persona](/productos-site/pm-playbook/personas/) has this problem? What happens if we don't?
 
 2. **Standard** — Does the proposed solution meet our [product principles](/productos-site/anchors/product-principles/)?
    Run the principle check questions against the proposed solution. If you can't answer "yes" to each, the standard isn't met yet.
@@ -120,10 +120,10 @@ The prioritisation session is where RFCs compete for engineering time. RICE rank
 Every decision gets communicated back to the proposer with reasoning. **"Not now because X"** is a complete, respectful answer. Silence is not.
 
 ### Assets
-- [Signal → Standard → Speed decision framework](/productos-site/playbook/decision-framework/) — three paths: Quick Win, Lightweight, Full Spec
+- [Signal → Standard → Speed decision framework](/productos-site/pm-playbook/decision-framework/) — three paths: Quick Win, Lightweight, Full Spec
 - [Product principles](/productos-site/anchors/product-principles/) with check questions
 - Quick win path (≤ half a day, no RFC, EM/PM alignment)
-- RFC path — [Writing RFCs](/productos-site/guides/product-specs/), [RFC Template](/productos-site/templates/rfc/), [RICE scoring](/productos-site/playbook/rice/)
+- RFC path — [Writing RFCs](/productos-site/guides/product-specs/), [RFC Template](/productos-site/templates/rfc/), [RICE scoring](/productos-site/pm-playbook/rice/)
 - Prioritisation session cadence (fortnightly or monthly, aligned to your sprint)
 
 ### Why It Matters
@@ -175,7 +175,7 @@ Product principles aren't aspirations for some future state. They're engineering
 - Product principles as PR/design review checklist
 - Instrumentation requirements in [RFC Template](/productos-site/templates/rfc/)
 - Success metrics defined before build starts
-- [Delivery Standards](/productos-site/playbook/delivery-standards/) — Operational workflow with gate checklists
+- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — Operational workflow with gate checklists
 
 ### Why It Matters
 Consistency makes a product feel trustworthy. Instrumentation makes the feedback loop possible. Without both, we're shipping blind into an inconsistent experience.
@@ -210,7 +210,7 @@ The real work starts after launch. Shipping is when we start learning whether ou
 Analytics tells you *what* (adoption is low). Customer feedback tells you *why* (onboarding is confusing). Together they tell you *what to do* (redesign onboarding, don't add features).
 
 ### Assets
-- [Post-Launch Review template](/productos-site/playbook/templates/post-launch-review/) — structured review at 2 weeks / 30 days / 60–90 days
+- [Post-Launch Review template](/productos-site/pm-playbook/templates/post-launch-review/) — structured review at 2 weeks / 30 days / 60–90 days
 - Accelerate-or-pivot decision matrix (above)
 - Product analytics dashboards per feature
 - Review recommendations feeding back to Learn
@@ -228,7 +228,7 @@ This closes the loop. Decisions → Commitment → Delivery → Measurement → 
 A shipped feature that customers can't find, don't understand, or can't adopt on their own is an incomplete investment. The path from "we built it" to "customers use it" requires deliberate effort.
 
 ### Behaviour
-- **Self-onboarding flows (PLG):** Can each [persona](/productos-site/playbook/personas/) discover and adopt new capabilities without talking to anyone? If any persona can't self-serve, that's a product gap, not a sales gap.
+- **Self-onboarding flows (PLG):** Can each [persona](/productos-site/pm-playbook/personas/) discover and adopt new capabilities without talking to anyone? If any persona can't self-serve, that's a product gap, not a sales gap.
 - **Sales enablement:** Positioning, demos, and competitive differentiation materials ship alongside (or shortly after) the feature itself. Sales shouldn't reverse-engineer value propositions from changelogs.
 - **Structured PoC/PoV process:** Enterprise evaluation follows a repeatable playbook — scoped, time-boxed, with clear success criteria. Not ad-hoc, not different every time.
 - **Adoption tracking:** Discovery → trial → purchase (or activation), tracked end to end. Where in the funnel are we losing people?
@@ -296,15 +296,15 @@ Everything below is a reference asset produced by this framework. Read them when
 | When you need to... | Use this |
 |---------------------|----------|
 | Understand the vision and personas | [Product Vision](/productos-site/anchors/product-vision/) |
-| Decide the right path for work | [Decision Framework](/productos-site/playbook/decision-framework/) |
+| Decide the right path for work | [Decision Framework](/productos-site/pm-playbook/decision-framework/) |
 | Write an RFC | [RFC Guide](/productos-site/guides/product-specs/) + [RFC Template](/productos-site/templates/rfc/) |
-| Score a project | [RICE Guide](/productos-site/playbook/rice/) |
-| Process feedback | [Handling Product Feedback](/productos-site/playbook/customer-feedback/) |
-| Document research | [Research Template](/productos-site/playbook/templates/research/) + [Customer Call Template](/productos-site/playbook/templates/customer-call/) |
-| Understand delivery workflow | [Delivery Standards](/productos-site/playbook/delivery-standards/) |
-| Run a post-launch review | [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) |
+| Score a project | [RICE Guide](/productos-site/pm-playbook/rice/) |
+| Process feedback | [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/) |
+| Document research | [Research Template](/productos-site/pm-playbook/templates/research/) + [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/) |
+| Understand delivery workflow | [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) |
+| Run a post-launch review | [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) |
 | Write job stories | [JTBD Guide](/productos-site/guides/jtbd-guide/) |
 | Write a durable per-job outcome doc | [Job Spec Template](/productos-site/templates/job-spec/) |
 | Deliver with an agentic workforce | [Agentic Delivery](/productos-site/guides/agentic-delivery/) |
-| Understand your role (PM) | [PM Handbook](/productos-site/playbook/pm-handbook/) |
-| Understand how the triad works | [Working Together](/productos-site/playbook/working-together/) |
+| Understand your role (PM) | [PM Handbook](/productos-site/pm-playbook/pm-handbook/) |
+| Understand how the triad works | [Working Together](/productos-site/pm-playbook/working-together/) |

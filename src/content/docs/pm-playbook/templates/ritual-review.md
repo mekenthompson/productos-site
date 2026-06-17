@@ -95,5 +95,5 @@ Top 3 things to fix or improve.
 
 ## Related
 
-- **PM Handbook:** [Monthly Rituals](/productos-site/playbook/pm-handbook/#monthly-rituals)
+- **PM Handbook:** [Monthly Rituals](/productos-site/pm-playbook/pm-handbook/#monthly-rituals)
 - **Projects:** [Link to related projects]

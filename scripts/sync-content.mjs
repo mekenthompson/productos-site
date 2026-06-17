@@ -25,7 +25,7 @@ const DEST = path.join(ROOT, 'src', 'content', 'docs');
 // dest path determines the Starlight route (route = dest minus .md, slugified).
 const FILES = [
   // site home — the playbook index doubles as the splash at `/`
-  ['playbook/index.md', 'index.md'],
+  ['pm-playbook/index.md', 'index.md'],
   // orientation (root)
   ['PLAN.md', 'PLAN.md'],
   ['AGENTS.md', 'AGENTS.md'],
@@ -45,12 +45,12 @@ const FILES = [
   ['writeups/uat-ux-debug-klanker.md', 'writeups/uat-ux-debug-klanker.md'],
   // playbook — the human PM craft
   ...['index', 'product-playbook', 'pm-handbook', 'working-together',
-    'product-domains', 'decision-framework', 'delivery-standards', 'discovery',
+    'decision-framework', 'delivery-standards', 'discovery',
     'customer-feedback', 'rice', 'personas', 'headline-metric', 'lifecycle',
-    'tools-we-use'].map((n) => [`playbook/${n}.md`, `playbook/${n}.md`]),
+    'tools-we-use'].map((n) => [`pm-playbook/${n}.md`, `pm-playbook/${n}.md`]),
   // playbook templates — the human templates
   ...['post-launch-review', 'research', 'customer-call', 'ritual-review']
-    .map((n) => [`playbook/templates/${n}.md`, `playbook/templates/${n}.md`]),
+    .map((n) => [`pm-playbook/templates/${n}.md`, `pm-playbook/templates/${n}.md`]),
 ];
 
 // Images to copy: source-relative -> dest-relative (under public/ or assets).

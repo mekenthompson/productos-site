@@ -21,7 +21,7 @@ Three jobs:
 
 1. **It anchors prioritisation.** Every RFC's expected impact is expressed in headline-metric terms. RICE Impact uses it. If an RFC can't articulate impact on the headline, it should be sent back.
 
-2. **It defines "we succeeded."** The 60–90 day [post-launch review](/productos-site/playbook/templates/post-launch-review/) tests whether the shipped feature actually moved the headline (or moved a credible leading indicator of it). Without a headline, "success" is whatever the team feels good about.
+2. **It defines "we succeeded."** The 60–90 day [post-launch review](/productos-site/pm-playbook/templates/post-launch-review/) tests whether the shipped feature actually moved the headline (or moved a credible leading indicator of it). Without a headline, "success" is whatever the team feels good about.
 
 3. **It tells the company what you're optimising for.** The company should be able to read the headline and predict your trade-offs. If they can't, the metric is too soft or too internal.
 
@@ -33,9 +33,9 @@ Three jobs:
 |---|---|
 | [Product Vision](/productos-site/anchors/product-vision/) | One sentence after the vision: "We measure ourselves on `[metric]`." |
 | [RFC Template](/productos-site/templates/rfc/) | Strategic Alignment names which headline lever the RFC pulls. |
-| [RICE](/productos-site/playbook/rice/) | Impact is scored in headline-metric units. |
-| Personas | Each persona's [vision-lens question](/productos-site/playbook/personas/) is a persona-specific version of the headline. |
-| [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) | The 60–90 day question is "did this move the headline?" |
+| [RICE](/productos-site/pm-playbook/rice/) | Impact is scored in headline-metric units. |
+| Personas | Each persona's [vision-lens question](/productos-site/pm-playbook/personas/) is a persona-specific version of the headline. |
+| [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) | The 60–90 day question is "did this move the headline?" |
 | Roadmap | Themes are organised around levers on the headline. |
 
 ---
@@ -64,7 +64,7 @@ Ready to use as the anchor when:
 
 - [ ] **It's one number, with a precise definition** an engineer could instrument.
 - [ ] **It decomposes into 2–4 levers.** Each lever has at least one team accountable for it.
-- [ ] **Each persona has a vision-lens version** of the metric. (See [Three Personas](/productos-site/playbook/personas/).)
+- [ ] **Each persona has a vision-lens version** of the metric. (See [Three Personas](/productos-site/pm-playbook/personas/).)
 - [ ] **It maps to an industry-standard metric** — you can explain the relationship in one sentence.
 - [ ] **You can describe a feature that moves it.** And a feature that *seems* to help but actually doesn't.
 - [ ] **At least one in-flight project can be re-scored against it.** And the re-scoring changes a priority — otherwise the metric is decorative.
@@ -150,6 +150,6 @@ None of these are "the right answer" — they're plausible *shapes* for the head
 ## Related
 
 - [Product Vision](/productos-site/anchors/product-vision/) — The vision names the headline.
-- [Three Personas](/productos-site/playbook/personas/) — Each persona has a vision-lens question derived from the headline.
+- [Three Personas](/productos-site/pm-playbook/personas/) — Each persona has a vision-lens question derived from the headline.
 - [Product Principles](/productos-site/anchors/product-principles/) — Principles ensure each feature moves the headline.
-- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal-Standard-Speed uses the headline as the success measure.
+- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal-Standard-Speed uses the headline as the success measure.

@@ -127,7 +127,7 @@ How does this move the headline metric from the [product vision](/productos-site
 Talk to your Tech Lead in the weekly scoping session (Monday). Sizing is a 5-minute conversation, not a week of analysis. If the Tech Lead says "I'm not sure," that usually means it's bigger than a lightweight — write the RFC.
 
 **What about urgent customer issues?**
-Urgent doesn't change the path — it changes the priority. A 3-day fix for a churning customer is still a Lightweight brief, but it goes to the top of the queue. The PM + Tech Lead approve same-day. Escalation to SVP if needed (see [PM Handbook escalation table](/productos-site/playbook/pm-handbook/#escalation)).
+Urgent doesn't change the path — it changes the priority. A 3-day fix for a churning customer is still a Lightweight brief, but it goes to the top of the queue. The PM + Tech Lead approve same-day. Escalation to SVP if needed (see [PM Handbook escalation table](/productos-site/pm-playbook/pm-handbook/#escalation)).
 
 **What about platform/infrastructure work?**
 Same three paths. Tech debt, reliability improvements, and dependency upgrades use the same decision tree. The evidence is different (incidents, performance data, security advisories instead of customer interviews), but Signal → Standard → Speed still applies.
@@ -142,10 +142,10 @@ The PM, informed by the Tech Lead's sizing. If there's disagreement, the PM deci
 
 ## Related
 
-- [Product Playbook](/productos-site/playbook/product-playbook/) — The 6-phase operating model (this framework is Phase 2: DECIDE)
+- [Product Playbook](/productos-site/pm-playbook/product-playbook/) — The 6-phase operating model (this framework is Phase 2: DECIDE)
 - [Product Vision](/productos-site/anchors/product-vision/) — Vision and personas
 - [RFC Guide](/productos-site/guides/product-specs/) — Full Spec path guidance (writing a ship-coupled RFC)
-- [RICE Assessment](/productos-site/playbook/rice/) — Scoring for Full Spec path
+- [RICE Assessment](/productos-site/pm-playbook/rice/) — Scoring for Full Spec path
 
 ---
 
@@ -159,7 +159,7 @@ Each bucket gets a capacity allocation (e.g., 40% Growth, 30% Enterprise, 20% Pl
 
 ## RICE Scoring
 
-RICE = (Reach + Impact + Confidence) / Effort. Score 1–4 for value dimensions, 1–5 for effort. Grades A through D. See [RICE Assessment](/productos-site/playbook/rice/) for scoring details.
+RICE = (Reach + Impact + Confidence) / Effort. Score 1–4 for value dimensions, 1–5 for effort. Grades A through D. See [RICE Assessment](/productos-site/pm-playbook/rice/) for scoring details.
 
 **Key rules:**
 - **Update RICE after scoping** — effort estimates change. Re-score.
@@ -167,4 +167,4 @@ RICE = (Reach + Impact + Confidence) / Effort. Score 1–4 for value dimensions,
 - **Kill low-confidence work** — if Confidence is 1, do more discovery first.
 - **Revisit deferred items quarterly** — priorities shift.
 
-**Full guide:** [RICE Prioritisation](/productos-site/playbook/rice/)
+**Full guide:** [RICE Prioritisation](/productos-site/pm-playbook/rice/)

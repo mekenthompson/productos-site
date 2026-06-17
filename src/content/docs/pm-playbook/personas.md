@@ -33,9 +33,9 @@ Each persona experiences the product (and the [headline metric](/productos-site/
 |---|---|
 | [Product Vision](/productos-site/anchors/product-vision/) | Each persona gets a one-line "vision lens" question. |
 | [RFC Template](/productos-site/templates/rfc/) | Every RFC names the primary persona served and (optionally) the secondary. Unclear persona = unclear value. |
-| [RICE](/productos-site/playbook/rice/) | Reach is scored *per persona*, not as a single blended number. |
-| [Decision Framework](/productos-site/playbook/decision-framework/) | "Signal" depends on whether a real persona has a real problem. |
-| [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) | Adoption is reviewed per persona — overall numbers hide persona-level failure. |
+| [RICE](/productos-site/pm-playbook/rice/) | Reach is scored *per persona*, not as a single blended number. |
+| [Decision Framework](/productos-site/pm-playbook/decision-framework/) | "Signal" depends on whether a real persona has a real problem. |
+| [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) | Adoption is reviewed per persona — overall numbers hide persona-level failure. |
 
 ---
 

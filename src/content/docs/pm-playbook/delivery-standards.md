@@ -24,7 +24,7 @@ icon: "📋"
 **Quick lookup:**
 - Need to write an RFC? → [RFC guide](/productos-site/guides/product-specs/)
 - Need a template? → [RFC Template](/productos-site/templates/rfc/)
-- Want the decision framework? → [Signal → Standard → Speed](/productos-site/playbook/decision-framework/)
+- Want the decision framework? → [Signal → Standard → Speed](/productos-site/pm-playbook/decision-framework/)
 
 ---
 
@@ -99,20 +99,20 @@ Every product decision traces to evidence. The discipline is choosing the highes
 
 - Validate the problem before committing engineering time
 - Tag the [persona](/productos-site/anchors/product-vision/) — Creator, Consumer, or Sponsor
-- Apply [Signal → Standard → Speed](/productos-site/playbook/decision-framework/) to pick the right path (Quick Win / Lightweight / Full Spec)
+- Apply [Signal → Standard → Speed](/productos-site/pm-playbook/decision-framework/) to pick the right path (Quick Win / Lightweight / Full Spec)
 - Vision check: does this move the [headline metric](/productos-site/anchors/product-vision/)?
 
 ### What You Do
 
 **Backlog:**
-- Talk to customers (3+ minimum) — see [Discovery](/productos-site/playbook/discovery/)
+- Talk to customers (3+ minimum) — see [Discovery](/productos-site/pm-playbook/discovery/)
 - Gather evidence (pain points, workarounds, urgency)
 - Assess impact (how many customers, what magnitude?)
 - Collect usage data and feedback patterns
 
 **Shaping:**
 - Write the [RFC](/productos-site/guides/product-specs/) — [RFC Template](/productos-site/templates/rfc/)
-- Score with [RICE](/productos-site/playbook/rice/)
+- Score with [RICE](/productos-site/pm-playbook/rice/)
 - Get technical feasibility from engineering
 - Review with Sales, Marketing, Product, Engineering
 
@@ -120,7 +120,7 @@ Every product decision traces to evidence. The discipline is choosing the highes
 
 - [RFC](/productos-site/templates/rfc/)
 - RICE score with transparent reasoning
-- Evidence base — [Research Template](/productos-site/playbook/templates/research/), [Customer Call Template](/productos-site/playbook/templates/customer-call/)
+- Evidence base — [Research Template](/productos-site/pm-playbook/templates/research/), [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/)
 
 ---
 
@@ -207,7 +207,7 @@ Shipping is the beginning. A feature nobody uses isn't a success — it's an una
 ### Deliverables
 
 - Launch materials (scaled to the stakes of the launch)
-- [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) at 2wk/30d/60-90d intervals
+- [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) at 2wk/30d/60-90d intervals
 - Changelog updates
 
 ---
@@ -390,7 +390,7 @@ After launch, track whether the bet paid off.
 
 > 💡 **Stopping is not failure.** Continuing to invest in something the data says isn't working — that's failure.
 
-Use the [Post-Launch Review Template](/productos-site/playbook/templates/post-launch-review/) at each interval.
+Use the [Post-Launch Review Template](/productos-site/pm-playbook/templates/post-launch-review/) at each interval.
 
 ---
 
@@ -458,9 +458,9 @@ Gate requirements scale with the stakes — small / quick-win work doesn't need 
 ## Related
 
 - [RFC guide](/productos-site/guides/product-specs/) — How RFCs are written and approved
-- [Discovery](/productos-site/playbook/discovery/) — How to validate problems before writing an RFC
-- [Handling Product Feedback](/productos-site/playbook/customer-feedback/) — Processing and routing customer feedback
-- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed
-- [Product Playbook](/productos-site/playbook/product-playbook/) — The 6-phase operating model
+- [Discovery](/productos-site/pm-playbook/discovery/) — How to validate problems before writing an RFC
+- [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/) — Processing and routing customer feedback
+- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal → Standard → Speed
+- [Product Playbook](/productos-site/pm-playbook/product-playbook/) — The 6-phase operating model
 
 For tool-specific guidance (how to set up custom statuses, automation rules, etc.) see your tracker's documentation.

@@ -11,7 +11,7 @@ Product, engineering, and design form the product triad. Three disciplines, one 
 
 Everything connects back to the [headline metric](/productos-site/anchors/product-vision/) named in the product vision — that's the number every PR, design review, and post-launch review tests against.
 
-> 📖 Read this alongside [Product Playbook](/productos-site/playbook/product-playbook/) (the operating model) and [PM Handbook](/productos-site/playbook/pm-handbook/) (for PMs specifically).
+> 📖 Read this alongside [Product Playbook](/productos-site/pm-playbook/product-playbook/) (the operating model) and [PM Handbook](/productos-site/pm-playbook/pm-handbook/) (for PMs specifically).
 
 ---
 
@@ -67,7 +67,7 @@ If someone hands you an implementation instead of a problem, push back. That app
 | What problem to solve | Product, with triad input |
 | Technical approach and architecture | Engineering |
 | Experience and interaction patterns | Design |
-| Effort estimates | Engineering (feeds [RICE scoring](/productos-site/playbook/rice/)) |
+| Effort estimates | Engineering (feeds [RICE scoring](/productos-site/pm-playbook/rice/)) |
 | When code is production-ready | Tech Lead |
 | When to ship to customers | Product (coordinates docs, experience, GTM) |
 | Scope negotiation | Shared: product owns requirements, engineering owns feasibility, design owns experience quality |
@@ -117,7 +117,7 @@ Quick Wins are worth calling out. If you see something that takes less than half
 
 RFCs aren't exclusive to PMs either. If an engineer or a Design Engineer identifies a problem worth solving, write the RFC. It still gets reviewed and prioritised through the normal process.
 
-> 🔗 See [Decision Framework](/productos-site/playbook/decision-framework/) for the full detail.
+> 🔗 See [Decision Framework](/productos-site/pm-playbook/decision-framework/) for the full detail.
 
 ---
 
@@ -150,7 +150,7 @@ Scope is a conversation, not a mandate.
 
 If the problem is real but the solution is too expensive or the experience can't be simplified enough, the answer is to find a simpler way to solve the same problem. Not "build it anyway." Not "drop it." Find a cheaper path to the same outcome.
 
-> ⚠️ Effort estimates feed [RICE scores](/productos-site/playbook/rice/), which feed prioritisation. A sandbagged estimate distorts that just as much as an optimistic one. Give your best guess, flag uncertainty, and update when you learn more.
+> ⚠️ Effort estimates feed [RICE scores](/productos-site/pm-playbook/rice/), which feed prioritisation. A sandbagged estimate distorts that just as much as an optimistic one. Give your best guess, flag uncertainty, and update when you learn more.
 
 ---
 
@@ -244,9 +244,9 @@ If the triad can't resolve a disagreement, bring it to your leads with context a
 
 | If you want to... | Go to |
 |-------------------|-------|
-| Understand the full operating model | [Product Playbook](/productos-site/playbook/product-playbook/) |
+| Understand the full operating model | [Product Playbook](/productos-site/pm-playbook/product-playbook/) |
 | See the product vision and personas | [Product Vision](/productos-site/anchors/product-vision/) |
-| Understand how we decide what to build | [Decision Framework](/productos-site/playbook/decision-framework/) |
+| Understand how we decide what to build | [Decision Framework](/productos-site/pm-playbook/decision-framework/) |
 | See how RFCs work | [Writing an RFC](/productos-site/guides/product-specs/) |
-| Understand the delivery workflow | [Delivery Standards](/productos-site/playbook/delivery-standards/) |
+| Understand the delivery workflow | [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) |
 | Grab an RFC template | [RFC](/productos-site/templates/rfc/) |

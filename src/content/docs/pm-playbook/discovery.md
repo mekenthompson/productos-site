@@ -37,7 +37,7 @@ Discovery is how you replace assumptions with evidence. Do it before you write a
 **How many:** 3 minimum, 5-7 ideal, 10+ for big bets
 
 **How:**
-- Use the [Customer Call Template](/productos-site/playbook/templates/customer-call/)
+- Use the [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/)
 - Focus on their problem, not your solution ("Tell me about the last time you had to retry that flow" not "Would you use a retry button?")
 - Record it (with permission), take notes, synthesise afterwards
 
@@ -63,7 +63,7 @@ Discovery is how you replace assumptions with evidence. Do it before you write a
 - Use their free tier, try the relevant feature
 - Document: What do they do? What's good? What's missing?
 
-**Output:** Competitive summary table in research doc (see [Research Template](/productos-site/playbook/templates/research/))
+**Output:** Competitive summary table in research doc (see [Research Template](/productos-site/pm-playbook/templates/research/))
 
 **Don't copy competitors. Learn from them.** They might be solving the wrong problem. Use their work as data, not direction.
 
@@ -73,7 +73,7 @@ Discovery is how you replace assumptions with evidence. Do it before you write a
 
 | Output | When to Use | Template |
 |--------|-------------|----------|
-| **Research doc** | Every discovery effort — link in your RFC Evidence section | [Research Template](/productos-site/playbook/templates/research/) |
+| **Research doc** | Every discovery effort — link in your RFC Evidence section | [Research Template](/productos-site/pm-playbook/templates/research/) |
 | **Job stories** | When you need to understand the customer job | [JTBD Guide](/productos-site/guides/jtbd-guide/) |
 | **Baseline metrics** | When you need to measure success (before/after) | Include in RFC Success section |
 | **Customer quotes** | When you need to make the problem real | Capture in research doc |
@@ -103,6 +103,6 @@ Discovery is how you replace assumptions with evidence. Do it before you write a
 
 ## Related
 
-- **[Handling Product Feedback](/productos-site/playbook/customer-feedback/)** — How feedback enters the system
+- **[Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/)** — How feedback enters the system
 - **[RFC guide](/productos-site/guides/product-specs/)** — Where discovery evidence lands
-- **[Delivery Standards](/productos-site/playbook/delivery-standards/)** — Where discovery fits in the delivery process
+- **[Delivery Standards](/productos-site/pm-playbook/delivery-standards/)** — Where discovery fits in the delivery process

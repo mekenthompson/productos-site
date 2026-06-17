@@ -9,9 +9,9 @@ icon: "👤"
 
 PMs own a simple question: **are we spending engineering time on the highest-leverage work?**
 
-We validate problems through our [personas](/productos-site/playbook/personas/), build the case for the right bets, and measure whether shipped work moved the [headline metric](/productos-site/anchors/product-vision/). The metric is the contract. Everything else is operational.
+We validate problems through our [personas](/productos-site/pm-playbook/personas/), build the case for the right bets, and measure whether shipped work moved the [headline metric](/productos-site/anchors/product-vision/). The metric is the contract. Everything else is operational.
 
-Companion to the [Product Playbook](/productos-site/playbook/product-playbook/) (how we build product as a company). This one is how PMs operate day to day.
+Companion to the [Product Playbook](/productos-site/pm-playbook/product-playbook/) (how we build product as a company). This one is how PMs operate day to day.
 
 ---
 
@@ -27,7 +27,7 @@ Companion to the [Product Playbook](/productos-site/playbook/product-playbook/) 
    Dogfood, onboarding review, competitor review. If you don't use your own product (and theirs), you don't understand the problem space.
 
 4. **Triage feedback daily**
-   Process customer feedback through the [feedback workflow](/productos-site/playbook/customer-feedback/). Categorise, identify patterns, escalate critical issues. This is how signal enters the system.
+   Process customer feedback through the [feedback workflow](/productos-site/pm-playbook/customer-feedback/). Categorise, identify patterns, escalate critical issues. This is how signal enters the system.
 
 5. **Measure actual vs predicted outcomes**
    Track metrics for 3–6 months post-launch. Shipping without measurement is guessing. Post-launch reviews close the loop and make the next bet smarter.
@@ -52,10 +52,10 @@ Everything else in this doc supports these 5.
 
 | Phase | What PMs Do | Persona Lens | Key Docs |
 |-------|-------------|--------------|----------|
-| **Learn** | Talk to 3+ customers, document evidence, estimate impact | Which persona has this problem? | [Handling Product Feedback](/productos-site/playbook/customer-feedback/), [Research Template](/productos-site/playbook/templates/research/) |
-| **Decide** | Write RFC, RICE score, get approval | Does the solution serve the vision for this persona? | [Writing an RFC](/productos-site/guides/product-specs/), [RICE](/productos-site/playbook/rice/), [Decision Framework](/productos-site/playbook/decision-framework/) |
+| **Learn** | Talk to 3+ customers, document evidence, estimate impact | Which persona has this problem? | [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/), [Research Template](/productos-site/pm-playbook/templates/research/) |
+| **Decide** | Write RFC, RICE score, get approval | Does the solution serve the vision for this persona? | [Writing an RFC](/productos-site/guides/product-specs/), [RICE](/productos-site/pm-playbook/rice/), [Decision Framework](/productos-site/pm-playbook/decision-framework/) |
 | **Shape + Build** | Maintain the living RFC, collaborate with Design + Engineering, validate in Preview | Does it meet all product principles? | [RFC Template](/productos-site/templates/rfc/) |
-| **Launch** | Coordinate GTM, plan rollout, monitor adoption, conduct post-launch review | Are the right personas adopting? | [Delivery Standards](/productos-site/playbook/delivery-standards/), [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) |
+| **Launch** | Coordinate GTM, plan rollout, monitor adoption, conduct post-launch review | Are the right personas adopting? | [Delivery Standards](/productos-site/pm-playbook/delivery-standards/), [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) |
 | **Sell** | Ensure self-onboarding works, support sales enablement, track adoption | Can each persona find and adopt this without help? | — |
 
 ---
@@ -66,12 +66,12 @@ Outcomes matter more than calendar slots. Here's what needs to happen and roughl
 
 | Outcome | Cadence | How |
 |---------|---------|-----|
-| **Feedback is triaged and categorised** | Daily | Process new feedback in your tracker. Categorise, tag persona, escalate critical issues. See [Handling Product Feedback](/productos-site/playbook/customer-feedback/). |
+| **Feedback is triaged and categorised** | Daily | Process new feedback in your tracker. Categorise, tag persona, escalate critical issues. See [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/). |
 | **Quick wins are identified and scoped** | Weekly | Review triaged feedback with your Tech Lead. Scope quick wins (≤ half a day). Ship the obvious ones. |
 | **Planned work is balanced against emerging needs** | Weekly | Prioritise with Engineering. Compare new signals against current commitments. |
-| **RFCs compete for engineering time** | Fortnightly | Prioritisation session. See [Decision Framework](/productos-site/playbook/decision-framework/) for how this works. |
+| **RFCs compete for engineering time** | Fortnightly | Prioritisation session. See [Decision Framework](/productos-site/pm-playbook/decision-framework/) for how this works. |
 | **You understand the product from the customer's perspective** | Monthly | Dogfooding + onboarding review + competitor review. See Monthly Rituals below. |
-| **Shipped work is measured against predictions** | Post-launch | Reviews at 2 weeks, 30 days, 60–90 days. Accelerate, iterate, pivot, or stop. See [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/). |
+| **Shipped work is measured against predictions** | Post-launch | Reviews at 2 weeks, 30 days, 60–90 days. Accelerate, iterate, pivot, or stop. See [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/). |
 
 ---
 
@@ -84,7 +84,7 @@ Outcomes matter more than calendar slots. Here's what needs to happen and roughl
 | **Day 1–2** | Get set up | Accounts: product, issue tracker, docs, source control, comms, AI tooling. Follow your engineering onboarding doc for access. |
 | **Week 1** | Learn the product and meet your team | Complete your product's internal training. Play with the product — build, break things, use AI agents to explore and ask questions. Meet your product and engineering teammates through informal 1:1s. Attend product meetings. Listen, learn, ask questions. |
 | **Week 2** | Broaden context and start contributing | Connect with Design and other leadership through informal 1:1s. Process and triage your first customer feedback. Attend team meetings across your area. Find a quick-delight problem (≤ 3 hours) you can help shape with engineering and get scheduled. |
-| **Week 3** | Write your first RFC stub | Pick a problem from the discovery backlog. Talk to 3+ customers using the [Customer Call Template](/productos-site/playbook/templates/customer-call/). Fill Problem + Evidence + Impact in the [RFC Template](/productos-site/templates/rfc/). Review in product team meetings — get feedback, iterate. |
+| **Week 3** | Write your first RFC stub | Pick a problem from the discovery backlog. Talk to 3+ customers using the [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/). Fill Problem + Evidence + Impact in the [RFC Template](/productos-site/templates/rfc/). Review in product team meetings — get feedback, iterate. |
 | **Week 4** | Complete all monthly rituals | Dogfooding + onboarding review + competitor review. See Monthly Rituals below. |
 | **Month 2** | Get first RFC approved | Finish the RFC (Solution, Scope, Success Metrics). RICE score. Submit for approval. See [Writing an RFC](/productos-site/guides/product-specs/). |
 | **Month 3** | Coordinate delivery | Maintain the living RFC. Collaborate with Design + Engineering. Enter Building status. |
@@ -182,7 +182,7 @@ Different competitor each month. Complete their onboarding end-to-end. Document:
 
 **Rotation:** maintain a list of 4–6 competitors and rotate one per month.
 
-Use [Ritual Review Template](/productos-site/playbook/templates/ritual-review/) for both dogfooding and competitor onboarding reviews.
+Use [Ritual Review Template](/productos-site/pm-playbook/templates/ritual-review/) for both dogfooding and competitor onboarding reviews.
 
 ### Ticket Tags
 
@@ -194,7 +194,7 @@ Use [Ritual Review Template](/productos-site/playbook/templates/ritual-review/) 
 
 ## Working With Others
 
-See [Working Together](/productos-site/playbook/working-together/) for how the product triad (product, engineering, design) collaborates.
+See [Working Together](/productos-site/pm-playbook/working-together/) for how the product triad (product, engineering, design) collaborates.
 
 ### With Engineering
 
@@ -223,20 +223,20 @@ Anti-pattern: "Sales needs this for a deal" → Instead: "Sales hears this from 
 
 **Start here:**
 - [Product Vision](/productos-site/anchors/product-vision/) — Vision, personas, principles
-- [Product Playbook](/productos-site/playbook/product-playbook/) — The 6-phase operating system
-- [Working Together](/productos-site/playbook/working-together/) — How the product triad collaborates
+- [Product Playbook](/productos-site/pm-playbook/product-playbook/) — The 6-phase operating system
+- [Working Together](/productos-site/pm-playbook/working-together/) — How the product triad collaborates
 
 **Guides:**
 - [Writing an RFC](/productos-site/guides/product-specs/) — How to write, approve, and deliver
-- [Handling Product Feedback](/productos-site/playbook/customer-feedback/) — Feedback processing
-- [RICE Guide](/productos-site/playbook/rice/) — Scoring framework
-- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed
+- [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/) — Feedback processing
+- [RICE Guide](/productos-site/pm-playbook/rice/) — Scoring framework
+- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal → Standard → Speed
 
 **Templates:**
-- [RFC Template](/productos-site/templates/rfc/) · [Job Spec Template](/productos-site/templates/job-spec/) · [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) · [Research Template](/productos-site/playbook/templates/research/) · [Customer Call Template](/productos-site/playbook/templates/customer-call/)
+- [RFC Template](/productos-site/templates/rfc/) · [Job Spec Template](/productos-site/templates/job-spec/) · [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) · [Research Template](/productos-site/pm-playbook/templates/research/) · [Customer Call Template](/productos-site/pm-playbook/templates/customer-call/)
 
 **Frameworks:**
 - [JTBD Guide](/productos-site/guides/jtbd-guide/)
 
 **Operational:**
-- [Delivery Standards](/productos-site/playbook/delivery-standards/) — Your tracker's workflow with gates
+- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — Your tracker's workflow with gates

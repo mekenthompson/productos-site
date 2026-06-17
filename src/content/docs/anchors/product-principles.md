@@ -7,7 +7,7 @@ icon: "📖"
 
 # Product Principles
 
-Product principles are the engineering and design standards that turn the [product vision](/productos-site/anchors/product-vision/) into day-to-day quality gates. They are applied in every PR, every design review, every release. They are the "Standard" in [Signal → Standard → Speed](/productos-site/playbook/decision-framework/).
+Product principles are the engineering and design standards that turn the [product vision](/productos-site/anchors/product-vision/) into day-to-day quality gates. They are applied in every PR, every design review, every release. They are the "Standard" in [Signal → Standard → Speed](/productos-site/pm-playbook/decision-framework/).
 
 > 🧭 Principles are the **second of three anchors** — **[Vision](/productos-site/anchors/product-vision/)** (why), **Principles** (built well), and **[Invariants](/productos-site/anchors/invariants/)** (lines we won't cross by construction). Together they fuse into the [verdict rule](/productos-site/guides/agentic-delivery/).
 
@@ -29,11 +29,11 @@ Principles fix this by making "good" *teachable*. A new engineer should be able 
 
 | Where they show up | How they're used |
 |---|---|
-| [Decision Framework](/productos-site/playbook/decision-framework/) | "Standard" is *literally* the principle check. No principle conformance, no shipping. |
+| [Decision Framework](/productos-site/pm-playbook/decision-framework/) | "Standard" is *literally* the principle check. No principle conformance, no shipping. |
 | [RFC Template](/productos-site/templates/rfc/) | Strategic Alignment section confirms the ship-coupled initiative meets each principle, with reasoning. |
 | [RFC](/productos-site/templates/rfc/) | Solution sections reference the principles they uphold and any tensions. |
 | Code review / design review | Each principle has check questions reviewers can paste into a comment. |
-| [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) | If the launch underperformed, ask: which principle did we compromise on? |
+| [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) | If the launch underperformed, ask: which principle did we compromise on? |
 
 The principle check is the second-most-cited document in the playbook (after the vision). If yours aren't getting cited, they aren't doing their job.
 
@@ -184,5 +184,5 @@ If you can't answer all three, you're not done. Redesign, don't ship and patch l
 
 - [Product Vision](/productos-site/anchors/product-vision/) — Principles are derived from the vision (the first anchor).
 - [Invariants](/productos-site/anchors/invariants/) — The third anchor; the lines you won't cross by construction.
-- [Decision Framework](/productos-site/playbook/decision-framework/) — How "Standard" uses the principles to filter work.
+- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — How "Standard" uses the principles to filter work.
 - [RFC Guide](/productos-site/guides/product-specs/) — How to apply principles when writing a ship-coupled RFC.
