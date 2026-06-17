@@ -41,8 +41,6 @@ const FILES = [
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
   ['skills/uat-ux-debug/SKILL.md', 'skills/uat-ux-debug.md'],
-  // writeups — the series
-  ['writeups/uat-ux-debug-klanker.md', 'writeups/uat-ux-debug-klanker.md'],
   // playbook — the human PM craft
   ...['index', 'product-playbook', 'pm-handbook', 'working-together',
     'decision-framework', 'delivery-standards', 'discovery',

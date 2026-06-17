@@ -52,10 +52,6 @@ export default defineConfig({
           autogenerate: { directory: 'skills' },
         },
         {
-          label: 'The series',
-          autogenerate: { directory: 'writeups' },
-        },
-        {
           label: 'Playbook',
           autogenerate: { directory: 'pm-playbook' },
         },
