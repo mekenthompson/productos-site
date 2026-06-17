@@ -4,9 +4,6 @@ description: How to define your invariants — the third anchor; the lines you w
 last_reviewed: 2026-06-17
 icon: "🚧"
 ---
-
-# Invariants
-
 Invariants are the third anchor, beside the [Vision](/productos-site/anchors/product-vision/)
 (the *why*) and the [Principles](/productos-site/anchors/product-principles/) (the *built-well*
 standards). They are the lines your product **will not cross by

@@ -4,9 +4,6 @@ description: How to decide the right path for any piece of work
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# Decision Framework
-
 **"One path for everything is no path at all."**
 
 Every idea, request, or problem that reaches a PM needs an answer to one question: **what's the right path for this work?**

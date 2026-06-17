@@ -4,8 +4,5 @@ description: 'Redirects to Delivery Standards — all lifecycle content consolid
 last_reviewed: 2026-03-10
 icon: "🚦"
 ---
-
-# Product Lifecycle
-
 > **This content has been consolidated into [Delivery Standards](/productos-site/pm-playbook/delivery-standards/).**
 > All lifecycle phases, gates, and delivery workflow now live there.

@@ -1,8 +1,6 @@
 ---
 title: ProductOS — plan and strategy
 ---
-# ProductOS — plan and strategy
-
 Status: 2026-06-17. This repo is the canonical, private **ProductOS**: a
 product operating system — a playbook plus the automation and
 agent-executable guidance (skills, templates, the operating contract) that

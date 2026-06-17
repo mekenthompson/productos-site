@@ -4,9 +4,6 @@ description: Comparison framework for product projects
 last_reviewed: 2026-05-12
 icon: "📊"
 ---
-
-# RICE Assessment
-
 RICE is a framework for **comparing projects** on the same basis. Three value dimensions divided by effort to produce an ROI-based grade.
 
 **What RICE does:**

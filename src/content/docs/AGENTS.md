@@ -1,8 +1,6 @@
 ---
 title: ProductOS — Agent Guidance
 ---
-# ProductOS — Agent Guidance
-
 This repository is a **reusable, product-agnostic operating system for running product organisations**. The framework (six phases, RICE, decision framework, RFC/spec templates) is product-agnostic. Anything specific to a real product (vision, personas, principles, invariants, headline metric) is documented as a *guide* — what good looks like, when it's "done," and how to write your own.
 
 ## Scope

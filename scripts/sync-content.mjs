@@ -197,6 +197,10 @@ async function main() {
       newFm = fm.trim().length ? `${titleLine}\n${fm.trim()}` : titleLine;
     }
 
+    // Starlight renders the page title from frontmatter; strip the body's
+    // leading H1 so the title doesn't render twice.
+    newBody = newBody.replace(/^\s*#\s+.*(?:\r?\n)+/, '');
+
     const out = `---\n${newFm.trim()}\n---\n${newBody}`;
     const destPath = path.join(DEST, destRel);
     await fs.mkdir(path.dirname(destPath), { recursive: true });

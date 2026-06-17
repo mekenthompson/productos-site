@@ -6,9 +6,6 @@ stakes: <what breaks, and why it matters, if you get this wrong>
 serves: <the Product Spec outcome this job ladders up to>
 invariants: [<named lines this job must never cross, by construction>]
 ---
-
-# Job Spec: <the job, in plain words>
-
 > A **Job Spec** is the durable, per-job outcome contract. One per job. It
 > is read by both a human (judging a change) and an agent (deciding what to
 > do mid-task), and both ask it the same question: *does this advance the

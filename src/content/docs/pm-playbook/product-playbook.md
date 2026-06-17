@@ -4,9 +4,6 @@ description: A six-phase operating model for product organisations
 last_reviewed: 2026-05-12
 icon: 🎚️
 ---
-
-# Product Playbook
-
 ## TL;DR
 
 Six phases, each feeding the next. The loop closes back to the start.

@@ -4,9 +4,6 @@ description: How the product triad — product, engineering, and design — coll
 last_reviewed: 2026-05-12
 icon: "🧩"
 ---
-
-# Working together
-
 Product, engineering, and design form the product triad. Three disciplines, one product. This doc covers how the triad works day to day: who owns what, how decisions get made, and what everyone on a product team can expect from each other.
 
 Everything connects back to the [headline metric](/productos-site/anchors/product-vision/) named in the product vision — that's the number every PR, design review, and post-launch review tests against.

@@ -4,9 +4,6 @@ description: How to define the three personas every product needs — Creator, C
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# Three Personas
-
 Almost every product has three audiences, even when the team only talks about one. Naming all three keeps the team honest about who they're building for and which trade-offs are showing up unintentionally.
 
 This guide explains the three-persona pattern, how each persona connects to the rest of the playbook, what a strong persona description contains, and how to adapt the model when your product doesn't obviously have all three.

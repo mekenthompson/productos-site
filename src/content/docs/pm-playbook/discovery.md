@@ -4,9 +4,6 @@ description: How to learn what to build before writing an RFC
 last_reviewed: 2026-05-12
 icon: "🔍"
 ---
-
-# Discovery
-
 Discovery is how you replace assumptions with evidence. Do it before you write an RFC.
 
 ---

@@ -4,9 +4,6 @@ description: Measure outcomes, close the loop, decide what's next
 last_reviewed: 2026-02-14
 icon: "\U0001F4CB"
 ---
-
-# Post-Launch Review: [Feature/Project Name]
-
 **RFC:** [PRJ-XXX Project Name](link)
 **Shipped:** [Date]
 **Review type:** 2-week / 30-day / 90-day

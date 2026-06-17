@@ -15,9 +15,6 @@ description: >
   job spec). Pairs with uat-ux-debug (debug against a spec) and the
   Job Spec template.
 ---
-
-# create-job-spec — interview to alignment, then write the job
-
 A **Job Spec** is the durable, per-job outcome contract, read by both a
 human (judging a change) and an agent (deciding what to do mid-task). It is
 outcome-oriented and never tech-specific: features, code, even the language

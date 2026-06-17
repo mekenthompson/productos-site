@@ -4,9 +4,6 @@ description: 'Competitive, analytics, surveys, usability testing'
 last_reviewed: 2025-01-25T00:00:00.000Z
 icon: "\U0001F52C"
 ---
-
-# [Research Title]
-
 > Turn raw data into structured findings that can feed RFC evidence and prioritisation decisions.
 
 ## Objective

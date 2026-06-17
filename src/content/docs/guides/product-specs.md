@@ -4,9 +4,6 @@ description: How to write, approve, and deliver a JTBD-led RFC — the ship-coup
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# Writing an RFC
-
 One document. Not two.
 
 > 🧭 **An RFC is not a named tier of its own** — it's the ship-coupled, per-initiative delivery layer that sits *beneath* the anchors ([Vision](/productos-site/anchors/product-vision/), [Principles](/productos-site/anchors/product-principles/), [Invariants](/productos-site/anchors/invariants/)), the product-level **Product Spec** (which owns the job list), and the **[Job Specs](/productos-site/templates/job-spec/)**. It's your existing RFC/PR process for one piece of work; this guide is a reference *shape* for it, not a new gate. Each RFC references the [Job Spec](/productos-site/templates/job-spec/) it serves.

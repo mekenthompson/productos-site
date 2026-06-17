@@ -1,8 +1,6 @@
 ---
 title: ProductOS
 ---
-# ProductOS
-
 **A product operating system.** Not just a playbook you read — the playbook
 *plus* the automation and agent-executable guidance (skills, templates, an
 operating contract) that make it *run*.

@@ -4,9 +4,6 @@ description: How to break down work, track projects, and manage delivery — tra
 last_reviewed: 2026-05-12
 icon: "📋"
 ---
-
-# Delivery Standards
-
 **From idea to shipped feature** — how to break down work, move through phases, and track delivery. This guide describes the *workflow*; the statuses and tracker fields below are conventions you implement in whichever issue tracker your team uses (Linear, Jira, Shortcut, GitHub Projects, Asana, etc.).
 
 ---

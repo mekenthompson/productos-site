@@ -4,9 +4,6 @@ description: How to raise, route, and manage product feedback
 last_reviewed: 2026-05-12
 icon: "👂"
 ---
-
-# Handling Product Feedback
-
 Product Feedback is one of the most important inputs into product strategy. It's a unique perspective that can help shape the product direction, qualify opportunities, and delight customers when it turns into a feature request that gets delivered.
 
 Not all Product Feedback will end up as a feature, but it is still important to continue to log and track feedback to help us find patterns and opportunities.

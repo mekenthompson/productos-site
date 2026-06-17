@@ -4,9 +4,6 @@ description: Reference toolchain and conventions for a product team — tool-agn
 last_reviewed: 2026-05-12
 icon: "🛠️"
 ---
-
-# Tools We Use
-
 This guide is about the **categories** of tooling a product team needs and the conventions that matter inside each. The specific tools (Linear vs Jira vs Shortcut, Notion vs Confluence vs Coda, Claude vs ChatGPT vs Cursor) are implementation details — pick what your company already runs on. The conventions below apply regardless.
 
 ## The categories

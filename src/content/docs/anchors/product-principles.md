@@ -4,9 +4,6 @@ description: How to define the engineering and design standards your product is 
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# Product Principles
-
 Product principles are the engineering and design standards that turn the [product vision](/productos-site/anchors/product-vision/) into day-to-day quality gates. They are applied in every PR, every design review, every release. They are the "Standard" in [Signal → Standard → Speed](/productos-site/pm-playbook/decision-framework/).
 
 > 🧭 Principles are the **second of three anchors** — **[Vision](/productos-site/anchors/product-vision/)** (why), **Principles** (built well), and **[Invariants](/productos-site/anchors/invariants/)** (lines we won't cross by construction). Together they fuse into the [verdict rule](/productos-site/guides/agentic-delivery/).

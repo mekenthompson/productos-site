@@ -4,9 +4,6 @@ description: How to write the product vision that anchors every decision in this
 last_reviewed: 2026-05-12
 icon: "🎯"
 ---
-
-# Product Vision
-
 > The product vision is the single source of truth that every other artifact in this playbook ties back to. Strategy, the Product Spec, RICE scores, post-launch reviews — they all reference the vision either to justify a "yes" or explain a "not now." If the vision is vague, everything downstream gets vague too.
 
 > 🧭 The vision is the first of **three anchors** that hold for the whole product: **Vision** (why we build), **[Principles](/productos-site/anchors/product-principles/)** (what "built well" means), and **[Invariants](/productos-site/anchors/invariants/)** (the lines we won't cross by construction). The vision *names* the invariants that matter; the Invariants doc *owns* them. Beneath the anchors sit the **Product Spec** (one per product — outcomes, how the product functions, and the job list) and the **Job Specs** (one per job). See [Agentic Delivery](/productos-site/guides/agentic-delivery/) for how the anchors fuse into the verdict rule.

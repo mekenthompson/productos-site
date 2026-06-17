@@ -4,9 +4,6 @@ description: How to use the JTBD framework in specs and research
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# Jobs to be Done (JTBD) Guide
-
 ## What is JTBD?
 
 > People don't buy products — they **hire** them to get a **job** done.

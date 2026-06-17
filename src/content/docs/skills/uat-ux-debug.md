@@ -16,9 +16,6 @@ description: >
   from the user outcome". Part of ProductOS (KEN-56); anchors KEN-57 (job
   spec), KEN-29 (probabilistic UAT), KEN-60 (UAT coverage).
 ---
-
-# UAT-UX debug — solve from the user outcome
-
 A failure is a **broken job promise**, and the bug is just its mechanism. If you
 anchor on the bug you ship a point-patch and the failure class recurs. Anchor on
 the outcome and the fix converges on the UX the job actually promised.

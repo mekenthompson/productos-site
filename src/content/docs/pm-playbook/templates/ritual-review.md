@@ -4,9 +4,6 @@ description: Template for monthly dogfooding and competitor reviews
 last_reviewed: 2026-05-12
 icon: "📋"
 ---
-
-# Ritual Review: [Product Name] — [Date]
-
 **Reviewer:** [PM name]
 **Review type:** Dogfooding (your product) / Competitor Analysis
 **Product area:** [e.g., onboarding, core flow, billing]

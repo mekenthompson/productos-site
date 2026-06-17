@@ -4,9 +4,6 @@ description: A reusable, six-phase operating system for running product
 last_reviewed: 2026-05-12
 icon: "🧩"
 ---
-
-# Product Playbook
-
 A reusable operating system for running product. Six phases — **Learn → Decide → Shape → Build → Launch → Sell** — that take an idea from "someone thought of this" to "we know whether it worked," with the loop closing back to learning.
 
 This playbook is **product-agnostic**. It works for B2B SaaS, marketplaces, consumer products, internal tools, and platforms. Where a specific product's vision, personas, or principles are needed, the relevant document is a *guide* — it tells you what a good version looks like and how to write your own. None of it is pre-filled with another company's answers.

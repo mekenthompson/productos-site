@@ -4,9 +4,6 @@ description: Interview and call documentation
 last_reviewed: 2025-01-25T00:00:00.000Z
 icon: "\U0001F4DE"
 ---
-
-# Customer Call: [Company] — [Topic] ([Date])
-
 > Capture what you learned — the problem underneath the request, not the feature they asked for.
 
 ## Context

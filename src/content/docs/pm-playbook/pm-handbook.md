@@ -4,9 +4,6 @@ description: Everything a Product Manager needs to know on this team
 last_reviewed: 2026-05-12
 icon: "👤"
 ---
-
-# PM Handbook
-
 PMs own a simple question: **are we spending engineering time on the highest-leverage work?**
 
 We validate problems through our [personas](/productos-site/pm-playbook/personas/), build the case for the right bets, and measure whether shipped work moved the [headline metric](/productos-site/anchors/product-vision/). The metric is the contract. Everything else is operational.

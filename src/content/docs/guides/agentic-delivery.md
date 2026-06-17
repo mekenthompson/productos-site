@@ -4,9 +4,6 @@ description: How to run delivery with an agentic workforce — the four working 
 last_reviewed: 2026-06-13
 icon: "🤖"
 ---
-
-# Agentic Delivery
-
 The six-phase [Product Loop](/productos-site/pm-playbook/product-playbook/) says how work *enters* and how you *learn* from what shipped. This guide covers the middle when **an agentic workforce does much of the building**: how the same handful of artifacts keep humans in control of the *outcome* while agents move fast on the *implementation*.
 
 It is written for the whole triad — **product, design, and engineering**. Engineering is not a footnote here: when agents write the code, the scarce thing is no longer engineering hours, it's **judgement and oversight**, and engineers are the ones who set the technical bar the agents build to.

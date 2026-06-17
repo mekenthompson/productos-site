@@ -4,9 +4,6 @@ description: How a feature moves from behind a flag to everyone — Private Prev
 last_reviewed: 2026-06-17
 icon: "🚦"
 ---
-
-# Release Phases
-
 A feature doesn't go from "built" to "everyone" in one step. It moves through
 named **release phases**, each with a defined **audience**, **flag state**,
 and **entry / exit criteria**. Every feature ships behind a flag, so every

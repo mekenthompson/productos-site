@@ -4,9 +4,6 @@ description: How to pick the single number that anchors the playbook
 last_reviewed: 2026-05-12
 icon: "📖"
 ---
-
-# The Headline Metric
-
 The headline metric is the **single number** named in the [product vision](/productos-site/anchors/product-vision/) that goes up (or down) when the vision is being realised. It's the question every RFC has to answer: *does this move the headline?*
 
 Most teams have several "important metrics." That's fine for dashboards. It's fatal for prioritisation. When everything is important, RICE becomes negotiation and roadmaps become wish lists. Picking *one* headline forces the team to make trade-offs in the open.
