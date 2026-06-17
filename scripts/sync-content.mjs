@@ -33,21 +33,13 @@ const FILES = [
   ...['product-vision', 'product-principles', 'invariants']
     .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),
   // guides — the OS method
-  ...['agentic-delivery', 'jtbd-guide', 'release-phases', 'product-specs']
+  ...['agentic-delivery', 'jtbd-guide', 'product-specs']
     .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates — the OS blank shapes
   ...['job-spec', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
   ['skills/uat-ux-debug/SKILL.md', 'skills/uat-ux-debug.md'],
-  // playbook — the human PM craft
-  ...['index', 'product-playbook', 'pm-handbook', 'working-together',
-    'decision-framework', 'delivery-standards', 'discovery',
-    'customer-feedback', 'rice', 'personas', 'headline-metric', 'lifecycle',
-    'tools-we-use'].map((n) => [`pm-playbook/${n}.md`, `pm-playbook/${n}.md`]),
-  // playbook templates — the human templates
-  ...['post-launch-review', 'research', 'customer-call', 'ritual-review']
-    .map((n) => [`pm-playbook/templates/${n}.md`, `pm-playbook/templates/${n}.md`]),
 ];
 
 // Images to copy: source-relative -> dest-relative (under public/ or assets).

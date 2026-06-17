@@ -16,7 +16,7 @@ An **RFC** does the work that used to be split between a PRD ("should we build t
 
 ## What changed (and why)
 
-Previously this playbook had two documents:
+Previously the process had two documents:
 
 - **PRD** — the approval document. Answered "should we build this?"
 - **Delivery spec** — the build document. Answered "how do we build this?"
@@ -74,7 +74,7 @@ An RFC is approved in draft and stays alive through ship. Decisions made during 
 | **Lightweight** | Half a day – 2 weeks | 1-page brief (Problem, Solution, Acceptance Criteria, Metrics, Persona) | PM + Tech Lead |
 | **Full Spec** | > 2 weeks | Full RFC using the [template](/productos-site/templates/rfc/) | Senior product sign-off |
 
-Use the [Decision Framework](/productos-site/pm-playbook/decision-framework/) to pick the path.
+Pick the path by the size and stakes of the work.
 
 **Don't write a full RFC for:** bug fixes, internal tooling with no customer impact, prototypes (use research docs), or small/obvious fixes.
 
@@ -105,9 +105,7 @@ The RFC author owns shepherding it through approval. Anyone can be the author.
 | **Shape** | Approved | Team agrees scope and approach. Solution space narrows as design and engineering propose options. RFC updated as decisions land. | Shaping → Readying for Build |
 | **Build** | Approved (living) | Build behind a flag. RFC updated when decisions are made; re-approved only if scope changes >20%. | Building → In Preview |
 | **Launch** | Approved | GTM activities. The RFC is the source of truth for what we shipped. | GTM Launch Planning → Launched |
-| **Sell** | Archived | Document actual vs predicted in the [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/). | Launched (Retro) |
-
-See [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) for full phase and gate details.
+| **Sell** | Archived | Document actual vs predicted in a post-launch review. | Launched (Retro) |
 
 ---
 
@@ -148,14 +146,14 @@ Then map the **forces** around the job — what pushes the user toward a new sol
 
 The struggling moments. **Be specific.** Generic "users find this confusing" isn't a struggling moment; "users open the settings page, scroll for 20 seconds looking for the SSO option, give up, and email support" is. Each struggling moment should have linked evidence.
 
-If you have fewer than two struggling moments with real evidence, you need more discovery. See [Discovery](/productos-site/pm-playbook/discovery/).
+If you have fewer than two struggling moments with real evidence, you need more discovery before you write the RFC.
 
 ### User Success Modes
 
 Three flavours of success, in order of weight:
 - **Behavioural** — observable in product analytics.
 - **Felt** — observable in qualitative signal (NPS, interviews, support sentiment).
-- **Headline-metric** — the specific movement on the [headline metric](/productos-site/pm-playbook/headline-metric/) that this RFC is responsible for.
+- **Headline-metric** — the specific movement on the vision's headline metric that this RFC is responsible for.
 
 Plus **leading indicators** — early signals (≤ 2 weeks post-launch) that tell you whether you're on track.
 
@@ -212,7 +210,7 @@ What you genuinely don't know yet, and how you'll resolve each one (experiment, 
 - Customer interviews or feedback with quotes, sample size, and links
 - Usage data or analytics with baseline numbers
 - Support ticket analysis (volume, trends, sentiment)
-- Research documents using the [Research Template](/productos-site/pm-playbook/templates/research/)
+- Research documents with findings, sources, and synthesis
 - Sales/CS win/loss insights
 - Competitive analysis
 
@@ -227,7 +225,7 @@ What you genuinely don't know yet, and how you'll resolve each one (experiment, 
 
 ## Approval
 
-Approval depth scales with the [path](/productos-site/pm-playbook/decision-framework/) and the stakes of the work.
+Approval depth scales with the path and the stakes of the work.
 
 | Path | Approver | SLA |
 |---|---|---|
@@ -295,11 +293,7 @@ When an agent drafts the RFC — or implements against it — the **author canno
 
 - **Template:** [RFC Template](/productos-site/templates/rfc/)
 - **Job Spec:** [Job Spec Template](/productos-site/templates/job-spec/) — the durable, per-job outcome contract an RFC references
-- **Discovery:** [Discovery guide](/productos-site/pm-playbook/discovery/) — validate problems before writing
-- **Research:** [Research Template](/productos-site/pm-playbook/templates/research/) — document findings
 - **JTBD:** [JTBD Guide](/productos-site/guides/jtbd-guide/) — framing the job and forces
-- **Decisions:** [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal → Standard → Speed (pick the right path)
-- **Lifecycle:** [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — full operational workflow and gate definitions
-- **Strategy:** Your annual strategy doc — strategic context
+- **Method:** [Agentic Delivery](/productos-site/guides/agentic-delivery/) — the verdict rule and the gates an RFC clears
 - **Vision:** [Product Vision](/productos-site/anchors/product-vision/) — the anchor every RFC ties back to
-- **Measurement:** [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) — closes the loop
+- **Principles:** [Product Principles](/productos-site/anchors/product-principles/) — the standards each RFC is checked against

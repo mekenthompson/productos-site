@@ -1,9 +1,9 @@
 ---
 title: ProductOS
 ---
-**A product operating system.** Not just a playbook you read — the playbook
-*plus* the automation and agent-executable guidance (skills, templates, an
-operating contract) that make it *run*.
+**A product operating system.** The method *plus* the automation and
+agent-executable guidance — anchors, Job Specs, templates, skills, and an
+operating contract — that make delivery *run*, not just advise.
 
 ProductOS is the method. The working example in action is
 **[switchroom](https://github.com/mekenthompson/switchroom)**.
@@ -36,10 +36,9 @@ invariant.
 | Folder | What it is |
 |---|---|
 | **`anchors/`** | The three anchors — `product-vision`, `product-principles`, `invariants` — and how to write each. |
-| **`guides/`** | The OS method: `agentic-delivery` (the verdict rule + four parts), `jtbd-guide`, `release-phases`, `product-specs` (the RFC how-to). |
+| **`guides/`** | The OS method: `agentic-delivery` (the verdict rule + four parts), `jtbd-guide`, `product-specs` (the RFC how-to). |
 | **`templates/`** | The blank shapes: `job-spec.md`, `rfc.md`. |
 | **`skills/`** | Agent-executable skills: `create-job-spec`, `uat-ux-debug`. |
-| **`pm-playbook/`** | The human PM craft: the six-phase loop, the handbook, the discipline guides, and their templates. Start at [`pm-playbook/index.md`](/productos-site/pm-playbook/). |
 | **`AGENTS.md`** | The terse operating contract — read this to *execute* the method. |
 
 ---
@@ -49,7 +48,7 @@ invariant.
 - **Run the method (agent):** [`AGENTS.md`](/productos-site/agents/) — the gate, the triggers, the reviewer checklist.
 - **Write a spec:** [`templates/job-spec.md`](/productos-site/templates/job-spec/) + the [`create-job-spec`](/productos-site/skills/create-job-spec/) skill (it interviews you, then writes it).
 - **Set the why / good / lines:** the anchors — [vision](/productos-site/anchors/product-vision/), [principles](/productos-site/anchors/product-principles/), [invariants](/productos-site/anchors/invariants/).
-- **Run product day to day (human):** [`pm-playbook/index.md`](/productos-site/pm-playbook/).
+- **Run a design loop (agent):** [`guides/agentic-delivery.md`](/productos-site/guides/agentic-delivery/) — the four parts and the verdict rule.
 
 ---
 
