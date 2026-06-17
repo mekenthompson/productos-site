@@ -174,14 +174,6 @@ async function main() {
 
     let newBody = rewriteLinks(body, srcRelDir === '.' ? '' : srcRelDir);
 
-    // special-case: product-playbook references images/product-loop.png which
-    // does NOT exist in the source. Neutralize the broken local image so the
-    // build doesn't fail. (Only the synced COPY is touched.)
-    newBody = newBody.replace(
-      /!\[([^\]]*)\]\(images\/product-loop\.png\)/g,
-      '<!-- image images/product-loop.png not present in source -->'
-    );
-
     let newFm = fm;
     if (!hasTitle(fm)) {
       const title = deriveTitle(body) || path.basename(srcRel, '.md');
