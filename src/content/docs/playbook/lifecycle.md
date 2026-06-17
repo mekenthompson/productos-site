@@ -7,5 +7,5 @@ icon: "🚦"
 
 # Product Lifecycle
 
-> **This content has been consolidated into [Delivery Standards](/productos-site/guides/delivery-standards/).**
+> **This content has been consolidated into [Delivery Standards](/productos-site/playbook/delivery-standards/).**
 > All lifecycle phases, gates, and delivery workflow now live there.

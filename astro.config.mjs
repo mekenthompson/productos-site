@@ -15,11 +15,11 @@ export default defineConfig({
           errorOnRelativeLinks: false,
           errorOnInconsistentLocale: false,
           // Known pre-existing broken anchor in the SOURCE markdown:
-          // guides/decision-framework.md links to pm-handbook.md#escalation,
+          // playbook/decision-framework.md links to pm-handbook.md#escalation,
           // but pm-handbook has no "escalation" heading/table. We surface the
           // page (link resolves) but tolerate the missing fragment rather than
           // mangle source content. Re-check if pm-handbook gains that anchor.
-          exclude: ['/productos-site/pm-handbook/#escalation'],
+          exclude: ['/productos-site/playbook/pm-handbook/#escalation'],
         }),
       ],
       social: [
@@ -30,34 +30,18 @@ export default defineConfig({
           label: 'Start',
           items: [
             { label: 'Home', link: '/' },
-            { label: 'Product Playbook', link: '/product-playbook/' },
+            { label: 'Agent Guidance', link: '/agents/' },
+            { label: 'Plan & Strategy', link: '/plan/' },
+            { label: 'README', link: '/readme/' },
           ],
         },
         {
           label: 'Anchors',
-          items: [
-            { label: 'Product Vision', link: '/product-vision/' },
-            { label: 'Product Principles', link: '/guides/product-principles/' },
-            { label: 'Invariants', link: '/guides/invariants/' },
-          ],
+          autogenerate: { directory: 'anchors' },
         },
         {
-          label: 'Guides',
-          items: [
-            { label: 'Agentic Delivery', link: '/guides/agentic-delivery/' },
-            { label: 'Jobs to be Done', link: '/guides/jtbd-guide/' },
-            { label: 'Decision Framework', link: '/guides/decision-framework/' },
-            { label: 'Writing an RFC', link: '/guides/product-specs/' },
-            { label: 'Delivery Standards', link: '/guides/delivery-standards/' },
-            { label: 'Release Phases', link: '/guides/release-phases/' },
-            { label: 'Discovery', link: '/guides/discovery/' },
-            { label: 'Handling Feedback', link: '/guides/customer-feedback/' },
-            { label: 'Three Personas', link: '/guides/personas/' },
-            { label: 'Headline Metric', link: '/guides/headline-metric/' },
-            { label: 'RICE Assessment', link: '/guides/rice/' },
-            { label: 'Product Lifecycle', link: '/guides/lifecycle/' },
-            { label: 'Tools We Use', link: '/guides/tools-we-use/' },
-          ],
+          label: 'Method / Guides',
+          autogenerate: { directory: 'guides' },
         },
         {
           label: 'Templates',
@@ -72,15 +56,8 @@ export default defineConfig({
           autogenerate: { directory: 'writeups' },
         },
         {
-          label: 'Reference',
-          items: [
-            { label: 'PM Handbook', link: '/pm-handbook/' },
-            { label: 'Working Together', link: '/working-together/' },
-            { label: 'Product Domains', link: '/product-domains/' },
-            { label: 'Agent Guidance', link: '/agents/' },
-            { label: 'Plan & Strategy', link: '/plan/' },
-            { label: 'README', link: '/readme/' },
-          ],
+          label: 'Playbook',
+          autogenerate: { directory: 'playbook' },
         },
       ],
     }),

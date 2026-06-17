@@ -17,7 +17,7 @@ icon: "\U0001F4DE"
 - **Role:** [Title/role]
 - **Company:** [Company name]
 - **Segment:** [Enterprise / Startup / etc.]
-- **Persona:** Creator / Consumer / Sponsor — _Which [persona](/productos-site/product-vision/) does this contact map to?_
+- **Persona:** Creator / Consumer / Sponsor — _Which [persona](/productos-site/anchors/product-vision/) does this contact map to?_
 
 ### What We Were Trying to Learn
 

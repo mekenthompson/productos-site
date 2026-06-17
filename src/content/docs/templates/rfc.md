@@ -117,7 +117,7 @@ What "this didn't work" looks like **from the user's perspective**. This is the 
 
 What cannot break, regardless of how creative the solution is. These are the constraints the team and any AI agent must respect.
 
-**Quality / principle guardrails** (see [Product Principles](/productos-site/guides/product-principles/)):
+**Quality / principle guardrails** (see [Product Principles](/productos-site/anchors/product-principles/)):
 - `[Principle 1]` — must remain true after this ships. Check question: …
 - `[Principle 2]` — must remain true. Check question: …
 - `[Principle 3]` — must remain true. Check question: …
@@ -221,13 +221,13 @@ Things we genuinely don't know yet, and how we'll resolve them.
 ## Related
 
 - [RFC guide](/productos-site/guides/product-specs/) — how to write this document
-- [Product Vision](/productos-site/product-vision/) — the anchor every RFC ties back to
-- [Three Personas](/productos-site/guides/personas/) — persona definitions
-- [Headline Metric](/productos-site/guides/headline-metric/) — what success is measured against
-- [Product Principles](/productos-site/guides/product-principles/) — the standards the solution must meet
-- [Decision Framework](/productos-site/guides/decision-framework/) — Signal → Standard → Speed
+- [Product Vision](/productos-site/anchors/product-vision/) — the anchor every RFC ties back to
+- [Three Personas](/productos-site/playbook/personas/) — persona definitions
+- [Headline Metric](/productos-site/playbook/headline-metric/) — what success is measured against
+- [Product Principles](/productos-site/anchors/product-principles/) — the standards the solution must meet
+- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed
 - [JTBD Guide](/productos-site/guides/jtbd-guide/) — framing the job
-- [Post-Launch Review](/productos-site/templates/post-launch-review/) — the measurement loop after this ships
+- [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) — the measurement loop after this ships
 
 ---
 

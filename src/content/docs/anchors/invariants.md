@@ -7,8 +7,8 @@ icon: "🚧"
 
 # Invariants
 
-Invariants are the third anchor, beside the [Vision](/productos-site/product-vision/)
-(the *why*) and the [Principles](/productos-site/guides/product-principles/) (the *built-well*
+Invariants are the third anchor, beside the [Vision](/productos-site/anchors/product-vision/)
+(the *why*) and the [Principles](/productos-site/anchors/product-principles/) (the *built-well*
 standards). They are the lines your product **will not cross by
 construction** — the *"are we even allowed / is this still us"* gate in the
 [verdict rule](/productos-site/guides/agentic-delivery/).
@@ -51,7 +51,7 @@ you're breaking a law, a policy, or a promise).
 ## How to write yours
 
 1. **Start from the vision's non-scope.** The strongest "we do not do X"
-   lines in your [vision](/productos-site/product-vision/) are invariant candidates —
+   lines in your [vision](/productos-site/anchors/product-vision/) are invariant candidates —
    the ones that are boundaries by construction, not just current priorities.
 2. **Add the compliance / trust / identity boundaries.** What would put you
    outside a policy, a regulation, or your core promise to the user? Those
@@ -77,9 +77,9 @@ specs for the pattern.
 
 ## Related
 
-- [Product Vision](/productos-site/product-vision/) — the first anchor; it *names* the
+- [Product Vision](/productos-site/anchors/product-vision/) — the first anchor; it *names* the
   invariants that matter.
-- [Product Principles](/productos-site/guides/product-principles/) — the second anchor; standards
+- [Product Principles](/productos-site/anchors/product-principles/) — the second anchor; standards
   you check against (and trade off), distinct from invariants you don't.
 - [Agentic Delivery](/productos-site/guides/agentic-delivery/) — how the anchors fuse into the
   verdict rule (the invariant clause is the kill-clause).

@@ -9,7 +9,7 @@ icon: "📖"
 
 One document. Not two.
 
-> 🧭 **An RFC is not a named tier of its own** — it's the ship-coupled, per-initiative delivery layer that sits *beneath* the anchors ([Vision](/productos-site/product-vision/), [Principles](/productos-site/guides/product-principles/), [Invariants](/productos-site/guides/invariants/)), the product-level **Product Spec** (which owns the job list), and the **[Job Specs](/productos-site/templates/job-spec/)**. It's your existing RFC/PR process for one piece of work; this guide is a reference *shape* for it, not a new gate. Each RFC references the [Job Spec](/productos-site/templates/job-spec/) it serves.
+> 🧭 **An RFC is not a named tier of its own** — it's the ship-coupled, per-initiative delivery layer that sits *beneath* the anchors ([Vision](/productos-site/anchors/product-vision/), [Principles](/productos-site/anchors/product-principles/), [Invariants](/productos-site/anchors/invariants/)), the product-level **Product Spec** (which owns the job list), and the **[Job Specs](/productos-site/templates/job-spec/)**. It's your existing RFC/PR process for one piece of work; this guide is a reference *shape* for it, not a new gate. Each RFC references the [Job Spec](/productos-site/templates/job-spec/) it serves.
 
 An **RFC** does the work that used to be split between a PRD ("should we build this?") and a separate delivery spec ("how do we build it?"). The shift matters: by combining them and framing the document around the **user's job to be done**, the RFC becomes useful at every phase — approval, design, build, launch, and post-ship review — and it stays useful for both humans and AI agents.
 
@@ -77,7 +77,7 @@ An RFC is approved in draft and stays alive through ship. Decisions made during 
 | **Lightweight** | Half a day – 2 weeks | 1-page brief (Problem, Solution, Acceptance Criteria, Metrics, Persona) | PM + Tech Lead |
 | **Full Spec** | > 2 weeks | Full RFC using the [template](/productos-site/templates/rfc/) | Senior product sign-off |
 
-Use the [Decision Framework](/productos-site/guides/decision-framework/) to pick the path.
+Use the [Decision Framework](/productos-site/playbook/decision-framework/) to pick the path.
 
 **Don't write a full RFC for:** bug fixes, internal tooling with no customer impact, prototypes (use research docs), or small/obvious fixes.
 
@@ -108,9 +108,9 @@ The RFC author owns shepherding it through approval. Anyone can be the author.
 | **Shape** | Approved | Team agrees scope and approach. Solution space narrows as design and engineering propose options. RFC updated as decisions land. | Shaping → Readying for Build |
 | **Build** | Approved (living) | Build behind a flag. RFC updated when decisions are made; re-approved only if scope changes >20%. | Building → In Preview |
 | **Launch** | Approved | GTM activities. The RFC is the source of truth for what we shipped. | GTM Launch Planning → Launched |
-| **Sell** | Archived | Document actual vs predicted in the [Post-Launch Review](/productos-site/templates/post-launch-review/). | Launched (Retro) |
+| **Sell** | Archived | Document actual vs predicted in the [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/). | Launched (Retro) |
 
-See [Delivery Standards](/productos-site/guides/delivery-standards/) for full phase and gate details.
+See [Delivery Standards](/productos-site/playbook/delivery-standards/) for full phase and gate details.
 
 ---
 
@@ -151,14 +151,14 @@ Then map the **forces** around the job — what pushes the user toward a new sol
 
 The struggling moments. **Be specific.** Generic "users find this confusing" isn't a struggling moment; "users open the settings page, scroll for 20 seconds looking for the SSO option, give up, and email support" is. Each struggling moment should have linked evidence.
 
-If you have fewer than two struggling moments with real evidence, you need more discovery. See [Discovery](/productos-site/guides/discovery/).
+If you have fewer than two struggling moments with real evidence, you need more discovery. See [Discovery](/productos-site/playbook/discovery/).
 
 ### User Success Modes
 
 Three flavours of success, in order of weight:
 - **Behavioural** — observable in product analytics.
 - **Felt** — observable in qualitative signal (NPS, interviews, support sentiment).
-- **Headline-metric** — the specific movement on the [headline metric](/productos-site/guides/headline-metric/) that this RFC is responsible for.
+- **Headline-metric** — the specific movement on the [headline metric](/productos-site/playbook/headline-metric/) that this RFC is responsible for.
 
 Plus **leading indicators** — early signals (≤ 2 weeks post-launch) that tell you whether you're on track.
 
@@ -173,9 +173,9 @@ Then name your **pivot triggers** and **stop triggers**. Specific. "60d adoption
 ### Guardrails
 
 Four buckets:
-- **Quality / principle** — your [Product Principles](/productos-site/guides/product-principles/) applied as engineering standards.
+- **Quality / principle** — your [Product Principles](/productos-site/anchors/product-principles/) applied as engineering standards.
 - **Performance / reliability** — latency budgets, error budgets, API contracts that can't break.
-- **Trust / safety** — privacy, security, reversibility. Anything the initiative must not cross by construction belongs to a named [invariant](/productos-site/guides/invariants/), not just a guardrail.
+- **Trust / safety** — privacy, security, reversibility. Anything the initiative must not cross by construction belongs to a named [invariant](/productos-site/anchors/invariants/), not just a guardrail.
 - **Out of scope** — explicit non-goals, even when asked.
 
 Guardrails are the part of the RFC that says *no* to creativity in specific places. The rest of the RFC invites it.
@@ -215,7 +215,7 @@ What you genuinely don't know yet, and how you'll resolve each one (experiment, 
 - Customer interviews or feedback with quotes, sample size, and links
 - Usage data or analytics with baseline numbers
 - Support ticket analysis (volume, trends, sentiment)
-- Research documents using the [Research Template](/productos-site/templates/research/)
+- Research documents using the [Research Template](/productos-site/playbook/templates/research/)
 - Sales/CS win/loss insights
 - Competitive analysis
 
@@ -230,7 +230,7 @@ What you genuinely don't know yet, and how you'll resolve each one (experiment, 
 
 ## Approval
 
-Approval depth scales with the [path](/productos-site/guides/decision-framework/) and the stakes of the work.
+Approval depth scales with the [path](/productos-site/playbook/decision-framework/) and the stakes of the work.
 
 | Path | Approver | SLA |
 |---|---|---|
@@ -298,11 +298,11 @@ When an agent drafts the RFC — or implements against it — the **author canno
 
 - **Template:** [RFC Template](/productos-site/templates/rfc/)
 - **Job Spec:** [Job Spec Template](/productos-site/templates/job-spec/) — the durable, per-job outcome contract an RFC references
-- **Discovery:** [Discovery guide](/productos-site/guides/discovery/) — validate problems before writing
-- **Research:** [Research Template](/productos-site/templates/research/) — document findings
+- **Discovery:** [Discovery guide](/productos-site/playbook/discovery/) — validate problems before writing
+- **Research:** [Research Template](/productos-site/playbook/templates/research/) — document findings
 - **JTBD:** [JTBD Guide](/productos-site/guides/jtbd-guide/) — framing the job and forces
-- **Decisions:** [Decision Framework](/productos-site/guides/decision-framework/) — Signal → Standard → Speed (pick the right path)
-- **Lifecycle:** [Delivery Standards](/productos-site/guides/delivery-standards/) — full operational workflow and gate definitions
+- **Decisions:** [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed (pick the right path)
+- **Lifecycle:** [Delivery Standards](/productos-site/playbook/delivery-standards/) — full operational workflow and gate definitions
 - **Strategy:** Your annual strategy doc — strategic context
-- **Vision:** [Product Vision](/productos-site/product-vision/) — the anchor every RFC ties back to
-- **Measurement:** [Post-Launch Review](/productos-site/templates/post-launch-review/) — closes the loop
+- **Vision:** [Product Vision](/productos-site/anchors/product-vision/) — the anchor every RFC ties back to
+- **Measurement:** [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) — closes the loop

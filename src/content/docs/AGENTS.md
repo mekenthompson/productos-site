@@ -44,44 +44,59 @@ Else: out of scope, however clever.
 
 **Ownership invariant** (extends "augmentation, not automation"; does not replace it). Agents own *delivery execution within the gates* — drafting Job Specs, implementing, running loops and UATs. Humans own the *gates and the judgement* — the vision, the principles, the invariants, ratifying the job statement, and engineering oversight. Agents consume the anchors; they never author them. This does NOT loosen the "Do NOT" rules below: changing the playbook's own policy (this contract, the AI stance, the anchors) is a human-ratified policy change, not routine agent delivery.
 
-## Playbook Structure
+## Repo structure
 
-Three tiers: **Root docs (understand how the model works) → Guides (go deeper) → Templates (grab and go)**
+The top level reads as the OS — anchors, the OS method guides, the OS
+templates, skills, and the series. The human PM craft (the playbook a
+person reads) lives under `playbook/`.
 
 ```
 productos/
-├── index.md                    # Playbook homepage + reading guide
-├── product-vision.md           # How to write the product vision (guide + template)
-├── product-playbook.md         # THE anchor doc (6-phase operating model)
-├── pm-handbook.md              # PM role, onboarding, rituals, collaboration
-├── working-together.md         # Product triad collaboration
-├── product-domains.md          # Pointer doc — domain map lives in your tool of choice
-├── guides/                     # Go deeper when you need to
-│   ├── agentic-delivery.md     # The four-part method for agent-delivered work (anchors, Job Specs, design loops, outcome UAT)
-│   ├── headline-metric.md      # How to pick the single metric the playbook anchors on
-│   ├── personas.md             # Three personas pattern (Creator/Consumer/Sponsor)
-│   ├── product-principles.md   # How to write the standards your product is built to
-│   ├── decision-framework.md   # Signal → Standard → Speed (three paths)
-│   ├── lifecycle.md            # [ARCHIVED] Redirects to delivery-standards.md
-│   ├── product-specs.md       # RFC guide (lifecycle, approval, delivery)
-│   ├── discovery.md            # How to validate problems before writing an RFC
-│   ├── customer-feedback.md    # Handling product feedback
-│   ├── rice.md                 # RICE scoring framework
-│   ├── jtbd-guide.md           # Jobs to be Done framework
-│   ├── delivery-standards.md     # Operational workflow with gate checklists
-│   └── tools-we-use.md         # Reference toolchain
-└── templates/                  # Grab these when doing the work
-    ├── rfc.md                  # The ship-coupled, per-initiative delivery doc (JTBD-led)
-    ├── job-spec.md             # The durable per-job outcome doc (job/outcome/stakes; outlives any RFC)
-    ├── post-launch-review.md   # 2wk/30d/90d review template
-    ├── ritual-review.md        # Dogfooding, onboarding, competitor review
-    ├── customer-call.md        # Research
-    └── research.md             # Research
+├── README.md  PLAN.md  AGENTS.md   # orientation + the operating contract
+├── anchors/                        # the three anchors (human-owned)
+│   ├── product-vision.md           # How to write the product vision (guide + template)
+│   ├── product-principles.md       # How to write the standards your product is built to
+│   └── invariants.md               # The lines you won't cross by construction
+├── guides/                         # the OS method
+│   ├── agentic-delivery.md         # The four-part method (anchors, Job Specs, design loops, outcome UAT)
+│   ├── jtbd-guide.md               # Jobs to be Done framework
+│   ├── release-phases.md           # Private/Public Preview → GA
+│   └── product-specs.md            # RFC how-to (lifecycle, approval, delivery)
+├── templates/                      # the OS blank shapes
+│   ├── job-spec.md                 # The durable per-job outcome doc (job/outcome/stakes; outlives any RFC)
+│   └── rfc.md                      # The ship-coupled, per-initiative delivery doc (JTBD-led)
+├── skills/                         # agent-executable skills
+│   ├── create-job-spec/SKILL.md
+│   └── uat-ux-debug/SKILL.md
+├── writeups/                       # the series
+│   └── uat-ux-debug-klanker.md
+└── playbook/                       # the human PM craft
+    ├── index.md                    # Playbook homepage + reading guide
+    ├── product-playbook.md         # THE anchor doc (6-phase operating model)
+    ├── pm-handbook.md              # PM role, onboarding, rituals, collaboration
+    ├── working-together.md         # Product triad collaboration
+    ├── product-domains.md          # Pointer doc — domain map lives in your tool of choice
+    ├── decision-framework.md       # Signal → Standard → Speed (three paths)
+    ├── delivery-standards.md       # Operational workflow with gate checklists
+    ├── discovery.md                # How to validate problems before writing an RFC
+    ├── customer-feedback.md        # Handling product feedback
+    ├── rice.md                     # RICE scoring framework
+    ├── personas.md                 # Three personas pattern (Creator/Consumer/Sponsor)
+    ├── headline-metric.md          # How to pick the single metric the playbook anchors on
+    ├── lifecycle.md                # [ARCHIVED] Redirects to delivery-standards.md
+    ├── tools-we-use.md             # Reference toolchain
+    └── templates/                  # the human templates
+        ├── post-launch-review.md   # 2wk/30d/90d review template
+        ├── research.md             # Research synthesis
+        ├── customer-call.md        # Interview / call notes
+        └── ritual-review.md        # Dogfooding, onboarding, competitor review
 ```
 
 ## Template Strategy
 
-**All copyable templates live in `templates/` only** — this is the single source of truth.
+**OS templates live in `templates/` (`job-spec.md`, `rfc.md`); the human PM
+templates live in `playbook/templates/`.** Within each location that's the
+single source of truth — don't duplicate a template across both.
 
 | Template | File | Notes |
 | -------- | ---- | ----- |

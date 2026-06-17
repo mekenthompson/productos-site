@@ -24,29 +24,33 @@ const DEST = path.join(ROOT, 'src', 'content', 'docs');
 // Map of source-relative path -> dest-relative path (under src/content/docs).
 // dest path determines the Starlight route (route = dest minus .md, slugified).
 const FILES = [
-  // root essays
-  ['index.md', 'index.md'],
-  ['product-playbook.md', 'product-playbook.md'],
-  ['product-vision.md', 'product-vision.md'],
-  ['pm-handbook.md', 'pm-handbook.md'],
-  ['working-together.md', 'working-together.md'],
-  ['product-domains.md', 'product-domains.md'],
+  // site home — the playbook index doubles as the splash at `/`
+  ['playbook/index.md', 'index.md'],
+  // orientation (root)
   ['PLAN.md', 'PLAN.md'],
   ['AGENTS.md', 'AGENTS.md'],
   ['README.md', 'README.md'],
-  // guides
-  ...['agentic-delivery', 'jtbd-guide', 'decision-framework', 'product-principles',
-    'invariants', 'product-specs', 'delivery-standards', 'discovery',
-    'customer-feedback', 'personas', 'headline-metric',
-    'rice', 'lifecycle', 'tools-we-use', 'release-phases'].map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
-  // templates
-  ...['job-spec', 'rfc', 'post-launch-review', 'research', 'customer-call',
-    'ritual-review'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
+  // anchors
+  ...['product-vision', 'product-principles', 'invariants']
+    .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),
+  // guides — the OS method
+  ...['agentic-delivery', 'jtbd-guide', 'release-phases', 'product-specs']
+    .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
+  // templates — the OS blank shapes
+  ...['job-spec', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
   ['skills/uat-ux-debug/SKILL.md', 'skills/uat-ux-debug.md'],
-  // writeups
+  // writeups — the series
   ['writeups/uat-ux-debug-klanker.md', 'writeups/uat-ux-debug-klanker.md'],
+  // playbook — the human PM craft
+  ...['index', 'product-playbook', 'pm-handbook', 'working-together',
+    'product-domains', 'decision-framework', 'delivery-standards', 'discovery',
+    'customer-feedback', 'rice', 'personas', 'headline-metric', 'lifecycle',
+    'tools-we-use'].map((n) => [`playbook/${n}.md`, `playbook/${n}.md`]),
+  // playbook templates — the human templates
+  ...['post-launch-review', 'research', 'customer-call', 'ritual-review']
+    .map((n) => [`playbook/templates/${n}.md`, `playbook/templates/${n}.md`]),
 ];
 
 // Images to copy: source-relative -> dest-relative (under public/ or assets).
@@ -62,6 +66,8 @@ const BASE = '/productos-site';
 function routeFor(destRel) {
   let r = destRel.replace(/\.md$/, '');
   if (r === 'index') return BASE + '/';
+  // A nested `<dir>/index.md` is served at `<dir>/`, not `<dir>/index/`.
+  r = r.replace(/\/index$/, '');
   // Starlight lowercases & slugifies segments for the URL.
   return BASE + '/' + r.split('/').map(slugSegment).join('/') + '/';
 }
@@ -154,7 +160,7 @@ function rewriteLinks(body, srcRelDir) {
 
 async function sourceExists() {
   try {
-    await fs.access(path.join(SOURCE, 'index.md'));
+    await fs.access(path.join(SOURCE, 'README.md'));
     return true;
   } catch {
     return false;

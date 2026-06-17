@@ -28,7 +28,7 @@ What question were we trying to answer?
 - **Sample size:** [N = X]
 - **Time period:** [Date range]
 - **Scope:** [What was included/excluded]
-- **Persona(s):** Creator / Consumer / Sponsor — _Which [persona(s)](/productos-site/product-vision/) does this research concern?_
+- **Persona(s):** Creator / Consumer / Sponsor — _Which [persona(s)](/productos-site/anchors/product-vision/) does this research concern?_
 
 ### Limitations
 

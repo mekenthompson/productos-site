@@ -29,25 +29,42 @@ Verdict rule (4 clauses): a change ships only when it advances a vision
 outcome ∧ satisfies its Job Spec ∧ passes every principle ∧ crosses no
 invariant.
 
-## The method
+## Repo layout
 
-- [`index.md`](/productos-site/) — the reading guide; start here.
-- [`product-playbook.md`](/productos-site/product-playbook/) — the six-phase loop
-  (Learn → Decide → Shape → Build → Launch → Sell).
-- The three anchor how-to guides: [`product-vision.md`](/productos-site/product-vision/),
-  [`guides/product-principles.md`](/productos-site/guides/product-principles/),
-  [`guides/invariants.md`](/productos-site/guides/invariants/).
-- [`guides/`](guides/) — how to write each artifact:
+The top level reads as the OS. The human PM craft — the playbook a person
+reads — lives under [`playbook/`](./playbook/).
+
+- [`anchors/`](./anchors/) — the three anchors and their how-to guides:
+  [`product-vision.md`](/productos-site/anchors/product-vision/),
+  [`product-principles.md`](/productos-site/anchors/product-principles/),
+  [`invariants.md`](/productos-site/anchors/invariants/).
+- [`guides/`](./guides/) — the OS method:
   [agentic-delivery](/productos-site/guides/agentic-delivery/) (the verdict rule + four
   parts), [jtbd-guide](/productos-site/guides/jtbd-guide/),
-  [decision-framework](/productos-site/guides/decision-framework/),
-  [product-specs](/productos-site/guides/product-specs/) (the RFC guide), personas, rice,
-  and more.
-- [`templates/`](templates/) — blank shapes:
-  [`job-spec.md`](/productos-site/templates/job-spec/) (canonical), [`rfc.md`](/productos-site/templates/rfc/),
-  post-launch-review, research, customer-call, ritual-review.
+  [release-phases](/productos-site/guides/release-phases/). (The RFC how-to,
+  [product-specs](/productos-site/guides/product-specs/), lives here too.)
+- [`templates/`](./templates/) — the OS blank shapes:
+  [`job-spec.md`](/productos-site/templates/job-spec/) (canonical) and
+  [`rfc.md`](/productos-site/templates/rfc/).
+- [`skills/`](./skills/) — agent-executable skills (see below).
+- [`writeups/`](./writeups/) — the series (see below).
+- [`playbook/`](./playbook/) — the human PM craft: the six-phase loop, the
+  handbook, and the discipline guides + their templates. Start at
+  [`playbook/index.md`](/productos-site/playbook/).
 - [`AGENTS.md`](/productos-site/agents/) — the terse, agent-executable operating contract.
   Read this to *execute* the method.
+
+## The playbook (human PM craft)
+
+- [`playbook/index.md`](/productos-site/playbook/) — the reading guide; start here.
+- [`playbook/product-playbook.md`](/productos-site/playbook/product-playbook/) — the
+  six-phase loop (Learn → Decide → Shape → Build → Launch → Sell).
+- [`playbook/pm-handbook.md`](/productos-site/playbook/pm-handbook/) — the handbook.
+- The discipline guides — decision-framework, delivery-standards, discovery,
+  customer-feedback, rice, personas, headline-metric, lifecycle, tools-we-use —
+  and the human templates under
+  [`playbook/templates/`](./playbook/templates/) (post-launch-review, research,
+  customer-call, ritual-review).
 
 ## Example skills (how to run product using ProductOS)
 

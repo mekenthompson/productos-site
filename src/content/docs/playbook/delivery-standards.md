@@ -24,7 +24,7 @@ icon: "📋"
 **Quick lookup:**
 - Need to write an RFC? → [RFC guide](/productos-site/guides/product-specs/)
 - Need a template? → [RFC Template](/productos-site/templates/rfc/)
-- Want the decision framework? → [Signal → Standard → Speed](/productos-site/guides/decision-framework/)
+- Want the decision framework? → [Signal → Standard → Speed](/productos-site/playbook/decision-framework/)
 
 ---
 
@@ -98,21 +98,21 @@ Every product decision traces to evidence. The discipline is choosing the highes
 ### Behaviour
 
 - Validate the problem before committing engineering time
-- Tag the [persona](/productos-site/product-vision/) — Creator, Consumer, or Sponsor
-- Apply [Signal → Standard → Speed](/productos-site/guides/decision-framework/) to pick the right path (Quick Win / Lightweight / Full Spec)
-- Vision check: does this move the [headline metric](/productos-site/product-vision/)?
+- Tag the [persona](/productos-site/anchors/product-vision/) — Creator, Consumer, or Sponsor
+- Apply [Signal → Standard → Speed](/productos-site/playbook/decision-framework/) to pick the right path (Quick Win / Lightweight / Full Spec)
+- Vision check: does this move the [headline metric](/productos-site/anchors/product-vision/)?
 
 ### What You Do
 
 **Backlog:**
-- Talk to customers (3+ minimum) — see [Discovery](/productos-site/guides/discovery/)
+- Talk to customers (3+ minimum) — see [Discovery](/productos-site/playbook/discovery/)
 - Gather evidence (pain points, workarounds, urgency)
 - Assess impact (how many customers, what magnitude?)
 - Collect usage data and feedback patterns
 
 **Shaping:**
 - Write the [RFC](/productos-site/guides/product-specs/) — [RFC Template](/productos-site/templates/rfc/)
-- Score with [RICE](/productos-site/guides/rice/)
+- Score with [RICE](/productos-site/playbook/rice/)
 - Get technical feasibility from engineering
 - Review with Sales, Marketing, Product, Engineering
 
@@ -120,7 +120,7 @@ Every product decision traces to evidence. The discipline is choosing the highes
 
 - [RFC](/productos-site/templates/rfc/)
 - RICE score with transparent reasoning
-- Evidence base — [Research Template](/productos-site/templates/research/), [Customer Call Template](/productos-site/templates/customer-call/)
+- Evidence base — [Research Template](/productos-site/playbook/templates/research/), [Customer Call Template](/productos-site/playbook/templates/customer-call/)
 
 ---
 
@@ -133,7 +133,7 @@ The product is one thing. Our three product principles are engineering standards
 ### Behaviour
 
 - The RFC is the single living document — approved at the end of Shape, updated through delivery as decisions land
-- [Product principles](/productos-site/guides/product-principles/) applied as design and engineering standards, not post-hoc review criteria
+- [Product principles](/productos-site/anchors/product-principles/) applied as design and engineering standards, not post-hoc review criteria
 - Instrumentation wired up before preview — events defined, dashboards built, guardrail metrics identified
 
 ### What You Do
@@ -207,7 +207,7 @@ Shipping is the beginning. A feature nobody uses isn't a success — it's an una
 ### Deliverables
 
 - Launch materials (scaled to the stakes of the launch)
-- [Post-Launch Review](/productos-site/templates/post-launch-review/) at 2wk/30d/60-90d intervals
+- [Post-Launch Review](/productos-site/playbook/templates/post-launch-review/) at 2wk/30d/60-90d intervals
 - Changelog updates
 
 ---
@@ -228,7 +228,7 @@ Every requirement below applies — scale its depth to the stakes (lighter for a
 | Technical feasibility confirmed | Always |
 | SVP of Product approval | Senior product sign-off for substantial work |
 | **Vision check** | Does this move the headline metric? |
-| **Persona identified** | Which [persona](/productos-site/product-vision/) has this problem? |
+| **Persona identified** | Which [persona](/productos-site/anchors/product-vision/) has this problem? |
 | **Evidence supports the bet** | Not just a good idea, but validated need with research |
 
 **Who approves:** Senior product sign-off (SVP of Product) for substantial work; PM + Tech Lead for small / quick-win work.
@@ -390,7 +390,7 @@ After launch, track whether the bet paid off.
 
 > 💡 **Stopping is not failure.** Continuing to invest in something the data says isn't working — that's failure.
 
-Use the [Post-Launch Review Template](/productos-site/templates/post-launch-review/) at each interval.
+Use the [Post-Launch Review Template](/productos-site/playbook/templates/post-launch-review/) at each interval.
 
 ---
 
@@ -458,9 +458,9 @@ Gate requirements scale with the stakes — small / quick-win work doesn't need 
 ## Related
 
 - [RFC guide](/productos-site/guides/product-specs/) — How RFCs are written and approved
-- [Discovery](/productos-site/guides/discovery/) — How to validate problems before writing an RFC
-- [Handling Product Feedback](/productos-site/guides/customer-feedback/) — Processing and routing customer feedback
-- [Decision Framework](/productos-site/guides/decision-framework/) — Signal → Standard → Speed
-- [Product Playbook](/productos-site/product-playbook/) — The 6-phase operating model
+- [Discovery](/productos-site/playbook/discovery/) — How to validate problems before writing an RFC
+- [Handling Product Feedback](/productos-site/playbook/customer-feedback/) — Processing and routing customer feedback
+- [Decision Framework](/productos-site/playbook/decision-framework/) — Signal → Standard → Speed
+- [Product Playbook](/productos-site/playbook/product-playbook/) — The 6-phase operating model
 
 For tool-specific guidance (how to set up custom statuses, automation rules, etc.) see your tracker's documentation.

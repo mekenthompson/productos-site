@@ -121,6 +121,6 @@ Customer 6 months later: *"What has been done on this feedback since I gave it?"
 
 ## Related
 
-- **[Discovery](/productos-site/guides/discovery/)** — How to validate problems with customer research
-- **[Delivery Standards](/productos-site/guides/delivery-standards/)** — Where feedback enters the product loop
-- **[Decision Framework](/productos-site/guides/decision-framework/)** — Signal → Standard → Speed
+- **[Discovery](/productos-site/playbook/discovery/)** — How to validate problems with customer research
+- **[Delivery Standards](/productos-site/playbook/delivery-standards/)** — Where feedback enters the product loop
+- **[Decision Framework](/productos-site/playbook/decision-framework/)** — Signal → Standard → Speed
