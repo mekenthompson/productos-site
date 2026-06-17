@@ -1,70 +1,63 @@
 ---
-title: Product Playbook
-description: A reusable, six-phase operating system for running product
-last_reviewed: 2026-05-12
-icon: "🧩"
+title: ProductOS
+---
+# ProductOS
+
+**A product operating system.** Not just a playbook you read — the playbook
+*plus* the automation and agent-executable guidance (skills, templates, an
+operating contract) that make it *run*.
+
+ProductOS is the method. The working example in action is
+**[switchroom](https://github.com/mekenthompson/switchroom)**.
+
+> Augment the judgment, automate the delivery. Private for now; a public
+> "lite" kit is a later export.
+
 ---
 
-# Product Playbook
+## The hierarchy
 
-A reusable operating system for running product. Six phases — **Learn → Decide → Shape → Build → Launch → Sell** — that take an idea from "someone thought of this" to "we know whether it worked," with the loop closing back to learning.
+```
+Vision · Principles · Invariants        three anchors (the why / built-well / never-cross)
+        ↓
+Product Spec                            per product — owns the job list
+        ↓
+Job Specs                               per job — durable, outcome-focused, UAT-verifiable
+        ↓
+RFCs / PRs                              ship-coupled delivery (not a named tier)
+```
 
-This playbook is **product-agnostic**. It works for B2B SaaS, marketplaces, consumer products, internal tools, and platforms. Where a specific product's vision, personas, or principles are needed, the relevant document is a *guide* — it tells you what a good version looks like and how to write your own. None of it is pre-filled with another company's answers.
+**Verdict rule.** A change ships only when it advances a vision outcome **and**
+satisfies its Job Spec **and** passes every principle **and** crosses no
+invariant.
 
-This is for everyone who builds, shapes, or ships product — PMs, engineers, designers, and the leaders and partners who work alongside them.
+---
 
-## The Core Idea
+## What's here
 
-**Good ideas are abundant. Engineering time is scarce.** Every hour of engineering is an hour you can't spend elsewhere, and customers — smart, impatient people with options — won't wait for you to figure out what matters. This playbook is a closed-loop operating system for product decisions: how ideas enter, how you choose, how you build, how you know it worked. The formula is simple: **Mental Model + Behaviour = Assets.** Without the right thinking and habits, frameworks become shelfware. Every phase makes this explicit: what to believe, what to do, what to produce.
+| Folder | What it is |
+|---|---|
+| **`anchors/`** | The three anchors — `product-vision`, `product-principles`, `invariants` — and how to write each. |
+| **`guides/`** | The OS method: `agentic-delivery` (the verdict rule + four parts), `jtbd-guide`, `release-phases`, `product-specs` (the RFC how-to). |
+| **`templates/`** | The blank shapes: `job-spec.md`, `rfc.md`. |
+| **`skills/`** | Agent-executable skills: `create-job-spec`, `uat-ux-debug`. |
+| **`pm-playbook/`** | The human PM craft: the six-phase loop, the handbook, the discipline guides, and their templates. Start at [`pm-playbook/index.md`](/productos-site/pm-playbook/). |
+| **`AGENTS.md`** | The terse operating contract — read this to *execute* the method. |
 
-## How to make this yours
+---
 
-Three things you write once and reuse everywhere:
+## Start here
 
-1. **[Product Vision](/productos-site/anchors/product-vision/)** — territory, headline metric, personas, invariants (the lines you won't cross). The single anchor every RFC ties back to.
-2. **[Three Personas](/productos-site/pm-playbook/personas/)** — your version of Creators / Consumers / Sponsors (or whatever shape fits your product). Each gets a vision-lens question that frames every decision.
-3. **[Product Principles](/productos-site/anchors/product-principles/)** — three to five engineering-and-design standards that turn the vision into day-to-day quality gates.
+- **Run the method (agent):** [`AGENTS.md`](/productos-site/agents/) — the gate, the triggers, the reviewer checklist.
+- **Write a spec:** [`templates/job-spec.md`](/productos-site/templates/job-spec/) + the [`create-job-spec`](/productos-site/skills/create-job-spec/) skill (it interviews you, then writes it).
+- **Set the why / good / lines:** the anchors — [vision](/productos-site/anchors/product-vision/), [principles](/productos-site/anchors/product-principles/), [invariants](/productos-site/anchors/invariants/).
+- **Run product day to day (human):** [`pm-playbook/index.md`](/productos-site/pm-playbook/).
 
-Once those three are written and stress-tested, the rest of the playbook clicks into place: the [decision framework](/productos-site/pm-playbook/decision-framework/) tests against them, the [RFC template](/productos-site/templates/rfc/) demands them, and the [post-launch review](/productos-site/pm-playbook/templates/post-launch-review/) measures against them.
+---
 
-## The Product Loop
+## The worked example
 
-Six phases, each feeding the next. The loop closes back to the start.
-
-**Learn** — Start with evidence. **Decide** — Signal, Standard, Speed. **Shape** — Define scope and align the team. **Build** — Build to standard, instrument before shipping. **Launch** — Measure at 2 weeks, 30 days, 60–90 days. **Sell** — Built isn't sold; close the loop back to Learn.
-
-Each phase has explicit beliefs, behaviours, and assets. See [Product Playbook](/productos-site/pm-playbook/product-playbook/) for the full model.
-
-## How We Decide
-
-Every idea passes three checks: **Signal** (strategy-aligned with real need?), **Standard** (meets our principles?), **Speed** (how big?). Half a day or less? Flag it with your EM/PM and ship it. Bigger? Write an RFC with a RICE score. Every decision gets communicated back with reasoning. [Full framework](/productos-site/pm-playbook/decision-framework/).
-
-## Reading Guide
-
-### Start here (all roles)
-1. [Product Vision](/productos-site/anchors/product-vision/) — How to write the vision; what "done" looks like
-2. [Product Playbook](/productos-site/pm-playbook/product-playbook/) — The full operating model: six phases, beliefs, behaviours, assets
-3. [Working Together](/productos-site/pm-playbook/working-together/) — How the product triad collaborates: ownership, decisions, common situations
-
-### PMs
-- [PM Handbook](/productos-site/pm-playbook/pm-handbook/) — Role, rituals, first 90 days
-- [RFC Guide](/productos-site/guides/product-specs/) — Writing and approval guide
-- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Signal, Standard, Speed in detail
-- [Discovery](/productos-site/pm-playbook/discovery/) — How to research before building
-- [Handling Product Feedback](/productos-site/pm-playbook/customer-feedback/) — Processing and triaging feedback
-- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — Phases, gates, delivery statuses
-
-### EMs and Engineers
-- [Working Together](/productos-site/pm-playbook/working-together/) — Decision authority, scope negotiation, tech debt path, Quick Win process
-- [Decision Framework](/productos-site/pm-playbook/decision-framework/) — Three paths: Quick Win, Lightweight, Full Spec
-- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — Delivery workflow and gate checklists
-- [Agentic Delivery](/productos-site/guides/agentic-delivery/) — run an agentic workforce against these artifacts: the four gates, fresh-process review, outcome UAT, and production-readiness
-
-### Marketing and GTM
-- [Delivery Standards](/productos-site/pm-playbook/delivery-standards/) — Release phases and the delivery lifecycle
-- [Working Together](/productos-site/pm-playbook/working-together/) — When GTM enters the process
-
-### Reference
-- **Core Concepts:** [Three Personas](/productos-site/pm-playbook/personas/) | [Product Principles](/productos-site/anchors/product-principles/) | [Headline Metric](/productos-site/pm-playbook/headline-metric/)
-- **Frameworks:** [Agentic Delivery](/productos-site/guides/agentic-delivery/) | [RICE Scoring](/productos-site/pm-playbook/rice/) | [JTBD Guide](/productos-site/guides/jtbd-guide/) | [Tools We Use](/productos-site/pm-playbook/tools-we-use/)
-- **Templates:** [RFC](/productos-site/templates/rfc/) | [Job Spec](/productos-site/templates/job-spec/) | [Customer Call](/productos-site/pm-playbook/templates/customer-call/) | [Research](/productos-site/pm-playbook/templates/research/) | [Post-Launch Review](/productos-site/pm-playbook/templates/post-launch-review/) | [Ritual Review](/productos-site/pm-playbook/templates/ritual-review/)
+**[switchroom](https://github.com/mekenthompson/switchroom/tree/docs/job-spec-golden/reference)** —
+real anchors, a product spec, and 19 Job Specs: the method filled in and
+proven against a live UAT harness. When a guide here needs an example, it
+points there.

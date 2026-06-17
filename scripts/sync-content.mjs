@@ -24,12 +24,11 @@ const DEST = path.join(ROOT, 'src', 'content', 'docs');
 // Map of source-relative path -> dest-relative path (under src/content/docs).
 // dest path determines the Starlight route (route = dest minus .md, slugified).
 const FILES = [
-  // site home — the playbook index doubles as the splash at `/`
-  ['pm-playbook/index.md', 'index.md'],
+  // site home — the README is the ProductOS front door
+  ['README.md', 'index.md'],
   // orientation (root)
   ['PLAN.md', 'PLAN.md'],
   ['AGENTS.md', 'AGENTS.md'],
-  ['README.md', 'README.md'],
   // anchors
   ...['product-vision', 'product-principles', 'invariants']
     .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),

@@ -25,36 +25,22 @@ export default defineConfig({
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/mekenthompson/productos-site' },
       ],
+      // Mirror the repo: overview, then anchors -> guides -> templates ->
+      // skills -> pm-playbook (same order + names as the productos folders).
       sidebar: [
         {
-          label: 'Start',
+          label: 'Overview',
           items: [
-            { label: 'Home', link: '/' },
-            { label: 'Agent Guidance', link: '/agents/' },
-            { label: 'Plan & Strategy', link: '/plan/' },
-            { label: 'README', link: '/readme/' },
+            { label: 'ProductOS', link: '/' },
+            { label: 'Operating contract (AGENTS)', link: '/agents/' },
+            { label: 'Plan & strategy', link: '/plan/' },
           ],
         },
-        {
-          label: 'Anchors',
-          autogenerate: { directory: 'anchors' },
-        },
-        {
-          label: 'Method / Guides',
-          autogenerate: { directory: 'guides' },
-        },
-        {
-          label: 'Templates',
-          autogenerate: { directory: 'templates' },
-        },
-        {
-          label: 'Skills',
-          autogenerate: { directory: 'skills' },
-        },
-        {
-          label: 'Playbook',
-          autogenerate: { directory: 'pm-playbook' },
-        },
+        { label: 'Anchors', autogenerate: { directory: 'anchors' } },
+        { label: 'Guides', autogenerate: { directory: 'guides' } },
+        { label: 'Templates', autogenerate: { directory: 'templates' } },
+        { label: 'Skills', autogenerate: { directory: 'skills' } },
+        { label: 'PM Playbook', autogenerate: { directory: 'pm-playbook' } },
       ],
     }),
   ],
