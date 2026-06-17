@@ -75,11 +75,11 @@ An RFC is approved in draft and stays alive through ship. Decisions made during 
 |------|------|---------------|--------------|
 | **Quick Win** | ≤ half a day | Nothing. Flag with EM/PM, then ship. Changelog if UX, support notification always. | EM/PM alignment |
 | **Lightweight** | Half a day – 2 weeks | 1-page brief (Problem, Solution, Acceptance Criteria, Metrics, Persona) | PM + Tech Lead |
-| **Full Spec** | > 2 weeks | Full RFC using the [template](/productos-site/templates/rfc/) | SVP Product (T1/T2), PM Lead (T3/T4) |
+| **Full Spec** | > 2 weeks | Full RFC using the [template](/productos-site/templates/rfc/) | Senior product sign-off |
 
 Use the [Decision Framework](/productos-site/guides/decision-framework/) to pick the path.
 
-**Don't write a full RFC for:** bug fixes, internal tooling with no customer impact, prototypes (use research docs), or T4 work.
+**Don't write a full RFC for:** bug fixes, internal tooling with no customer impact, prototypes (use research docs), or small/obvious fixes.
 
 ---
 
@@ -118,7 +118,7 @@ See [Delivery Standards](/productos-site/guides/delivery-standards/) for full ph
 
 The [template](/productos-site/templates/rfc/) has these sections. The order matters — it's the order a reader (human or agent) needs them.
 
-1. **Status** — Header block with owner, approver, lever, tier, tracker.
+1. **Status** — Header block with owner, approver, lever, tracker.
 2. **TL;DR** — Three sentences: the job, what success looks like, the biggest constraint.
 3. **The Job** — JTBD statement, persona, forces.
 4. **How Users Fail Today** — Struggling moments with evidence.
@@ -230,12 +230,13 @@ What you genuinely don't know yet, and how you'll resolve each one (experiment, 
 
 ## Approval
 
-| Launch tier | Approver | SLA |
+Approval depth scales with the [path](/productos-site/guides/decision-framework/) and the stakes of the work.
+
+| Path | Approver | SLA |
 |---|---|---|
-| **T1** (new offering / major release) | SVP Product (+ exec sign-off) | 5 business days |
-| **T2** (product evolution) | SVP Product | 5 business days |
-| **T3** (feature enhancement) | PM Lead or Engineering Lead | 3 business days |
-| **T4** (usability fix) | PM + Tech Lead | Same day |
+| **Quick Win** (≤ half a day) | PM + Tech Lead | Same day |
+| **Lightweight** (half a day – 2 weeks) | PM Lead | 3 business days |
+| **Full Spec** (> 2 weeks) | Senior product sign-off (SVP Product; + exec sign-off for the highest-stakes launches) | 5 business days |
 
 ### Approval checklist
 

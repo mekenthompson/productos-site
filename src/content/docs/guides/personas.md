@@ -35,7 +35,6 @@ Each persona experiences the product (and the [headline metric](/productos-site/
 | [RFC Template](/productos-site/templates/rfc/) | Every RFC names the primary persona served and (optionally) the secondary. Unclear persona = unclear value. |
 | [RICE](/productos-site/guides/rice/) | Reach is scored *per persona*, not as a single blended number. |
 | [Decision Framework](/productos-site/guides/decision-framework/) | "Signal" depends on whether a real persona has a real problem. |
-| [Customer Journey](/productos-site/guides/customer-journey/) | Each persona has their own journey; do not collapse them. |
 | [Post-Launch Review](/productos-site/templates/post-launch-review/) | Adoption is reviewed per persona — overall numbers hide persona-level failure. |
 
 ---
@@ -145,5 +144,4 @@ If you can't clearly answer which persona benefits and how, the feature may not 
 ## Related
 
 - [Product Vision](/productos-site/product-vision/) — Personas live alongside the vision and headline metric.
-- [Customer Journey](/productos-site/guides/customer-journey/) — How each persona moves through the product.
 - [JTBD Guide](/productos-site/guides/jtbd-guide/) — Jobs to be Done, which complements personas with motivation framing.

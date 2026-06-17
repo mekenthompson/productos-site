@@ -37,8 +37,8 @@ const FILES = [
   // guides
   ...['agentic-delivery', 'jtbd-guide', 'decision-framework', 'product-principles',
     'invariants', 'product-specs', 'delivery-standards', 'discovery',
-    'customer-feedback', 'customer-journey', 'personas', 'headline-metric',
-    'rice', 'lifecycle', 'tools-we-use'].map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
+    'customer-feedback', 'personas', 'headline-metric',
+    'rice', 'lifecycle', 'tools-we-use', 'release-phases'].map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates
   ...['job-spec', 'rfc', 'post-launch-review', 'research', 'customer-call',
     'ritual-review'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
@@ -51,9 +51,7 @@ const FILES = [
 
 // Images to copy: source-relative -> dest-relative (under public/ or assets).
 // Markdown image links use relative paths, so we mirror them under docs.
-const IMAGES = [
-  ['guides/images/customer-journey.png', 'guides/images/customer-journey.png'],
-];
+const IMAGES = [];
 
 // The site is served under this base path (must match astro.config `base`).
 // Markdown links are NOT auto-prefixed with base, so we bake it in here.

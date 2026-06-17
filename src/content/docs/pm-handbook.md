@@ -236,7 +236,7 @@ Anti-pattern: "Sales needs this for a deal" → Instead: "Sales hears this from 
 - [RFC Template](/productos-site/templates/rfc/) · [Job Spec Template](/productos-site/templates/job-spec/) · [Post-Launch Review](/productos-site/templates/post-launch-review/) · [Research Template](/productos-site/templates/research/) · [Customer Call Template](/productos-site/templates/customer-call/)
 
 **Frameworks:**
-- [JTBD Guide](/productos-site/guides/jtbd-guide/) · [Customer Journey](/productos-site/guides/customer-journey/)
+- [JTBD Guide](/productos-site/guides/jtbd-guide/)
 
 **Operational:**
 - [Delivery Standards](/productos-site/guides/delivery-standards/) — Your tracker's workflow with gates

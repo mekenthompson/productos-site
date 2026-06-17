@@ -61,10 +61,10 @@ Every idea passes three checks: **Signal** (strategy-aligned with real need?), *
 - [Agentic Delivery](/productos-site/guides/agentic-delivery/) — run an agentic workforce against these artifacts: the four gates, fresh-process review, outcome UAT, and production-readiness
 
 ### Marketing and GTM
-- [Delivery Standards](/productos-site/guides/delivery-standards/) — Launch tiers and release phases
+- [Delivery Standards](/productos-site/guides/delivery-standards/) — Release phases and the delivery lifecycle
 - [Working Together](/productos-site/working-together/) — When GTM enters the process
 
 ### Reference
 - **Core Concepts:** [Three Personas](/productos-site/guides/personas/) | [Product Principles](/productos-site/guides/product-principles/) | [Headline Metric](/productos-site/guides/headline-metric/)
-- **Frameworks:** [Agentic Delivery](/productos-site/guides/agentic-delivery/) | [RICE Scoring](/productos-site/guides/rice/) | [JTBD Guide](/productos-site/guides/jtbd-guide/) | [Customer Journey](/productos-site/guides/customer-journey/) | [Tools We Use](/productos-site/guides/tools-we-use/)
+- **Frameworks:** [Agentic Delivery](/productos-site/guides/agentic-delivery/) | [RICE Scoring](/productos-site/guides/rice/) | [JTBD Guide](/productos-site/guides/jtbd-guide/) | [Tools We Use](/productos-site/guides/tools-we-use/)
 - **Templates:** [RFC](/productos-site/templates/rfc/) | [Job Spec](/productos-site/templates/job-spec/) | [Customer Call](/productos-site/templates/customer-call/) | [Research](/productos-site/templates/research/) | [Post-Launch Review](/productos-site/templates/post-launch-review/) | [Ritual Review](/productos-site/templates/ritual-review/)
