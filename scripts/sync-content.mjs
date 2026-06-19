@@ -33,12 +33,15 @@ const FILES = [
   ...['product-vision', 'product-principles', 'invariants']
     .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),
   // guides — the OS method
-  ...['agentic-delivery', 'jtbd-guide', 'product-specs']
+  ...['agentic-delivery', 'jtbd-guide', 'org-as-an-api', 'product-specs']
     .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates — the OS blank shapes
-  ...['job-spec', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
+  ...['job-spec', 'job-links', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
+  ['skills/feedback-to-jobs/SKILL.md', 'skills/feedback-to-jobs.md'],
+  ['skills/feedback-to-jobs/references/rating-criteria.md', 'skills/feedback-to-jobs/rating-criteria.md'],
+  ['skills/feedback-to-jobs/references/theme-structure.md', 'skills/feedback-to-jobs/theme-structure.md'],
   ['skills/uat-ux-debug/SKILL.md', 'skills/uat-ux-debug.md'],
 ];
 

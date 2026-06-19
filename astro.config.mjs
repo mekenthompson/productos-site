@@ -17,23 +17,27 @@ export default defineConfig({
         }),
       ],
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/mekenthompson/productos-site' },
+        { icon: 'github', label: 'switchroom', href: 'https://github.com/switchroom/switchroom' },
       ],
-      // Mirror the repo: overview, then anchors -> guides -> templates ->
-      // skills (same order + names as the productos folders).
+      lastUpdated: true,
+      tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
+      customCss: ['./src/styles/custom.css'],
       sidebar: [
         {
-          label: 'Overview',
+          label: 'Start here',
           items: [
             { label: 'ProductOS', link: '/' },
             { label: 'Operating contract (AGENTS)', link: '/agents/' },
-            { label: 'Plan & strategy', link: '/plan/' },
           ],
         },
         { label: 'Anchors', autogenerate: { directory: 'anchors' } },
-        { label: 'Guides', autogenerate: { directory: 'guides' } },
+        { label: 'Method (guides)', autogenerate: { directory: 'guides' } },
         { label: 'Templates', autogenerate: { directory: 'templates' } },
         { label: 'Skills', autogenerate: { directory: 'skills' } },
+        {
+          label: 'Reference',
+          items: [{ label: 'Plan & strategy', link: '/plan/' }],
+        },
       ],
     }),
   ],

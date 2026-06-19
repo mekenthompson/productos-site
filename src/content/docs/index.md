@@ -6,7 +6,7 @@ agent-executable guidance — anchors, Job Specs, templates, skills, and an
 operating contract — that make delivery *run*, not just advise.
 
 ProductOS is the method. The working example in action is
-**[switchroom](https://github.com/mekenthompson/switchroom)**.
+**[switchroom](https://github.com/switchroom/switchroom)**.
 
 > Augment the judgment, automate the delivery. Private for now; a public
 > "lite" kit is a later export.
@@ -36,9 +36,9 @@ invariant.
 | Folder | What it is |
 |---|---|
 | **`anchors/`** | The three anchors — `product-vision`, `product-principles`, `invariants` — and how to write each. |
-| **`guides/`** | The OS method: `agentic-delivery` (the verdict rule + four parts), `jtbd-guide`, `product-specs` (the RFC how-to). |
-| **`templates/`** | The blank shapes: `job-spec.md`, `rfc.md`. |
-| **`skills/`** | Agent-executable skills: `create-job-spec`, `uat-ux-debug`. |
+| **`guides/`** | The OS method: `agentic-delivery` (the verdict rule + four parts), `jtbd-guide`, `org-as-an-api` (sequence the roadmap from joined evidence), `product-specs` (the RFC how-to). |
+| **`templates/`** | The blank shapes: `job-spec.md`, `job-links.md`, `rfc.md`. |
+| **`skills/`** | Agent-executable skills: `create-job-spec`, `feedback-to-jobs`, `uat-ux-debug`. |
 | **`AGENTS.md`** | The terse operating contract — read this to *execute* the method. |
 
 ---
@@ -54,7 +54,7 @@ invariant.
 
 ## The worked example
 
-**[switchroom](https://github.com/mekenthompson/switchroom/tree/docs/job-spec-golden/reference)** —
+**[switchroom](https://github.com/switchroom/switchroom/tree/main/reference)** —
 real anchors, a product spec, and 19 Job Specs: the method filled in and
 proven against a live UAT harness. When a guide here needs an example, it
 points there.
