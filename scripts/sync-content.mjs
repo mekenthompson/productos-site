@@ -27,7 +27,6 @@ const FILES = [
   // site home — the README is the ProductOS front door
   ['README.md', 'index.md'],
   // orientation (root)
-  ['PLAN.md', 'PLAN.md'],
   ['AGENTS.md', 'AGENTS.md'],
   // anchors
   ...['product-vision', 'product-principles', 'invariants']

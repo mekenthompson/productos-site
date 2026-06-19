@@ -52,7 +52,7 @@ repo, not here.
 
 ```
 productos/
-├── README.md  PLAN.md  AGENTS.md   # orientation + the operating contract
+├── README.md  AGENTS.md            # orientation + the operating contract
 ├── anchors/                        # the three anchors (human-owned)
 │   ├── product-vision.md           # How to write the product vision (guide + template)
 │   ├── product-principles.md       # How to write the standards your product is built to

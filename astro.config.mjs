@@ -34,10 +34,6 @@ export default defineConfig({
         { label: 'Method (guides)', autogenerate: { directory: 'guides' } },
         { label: 'Templates', autogenerate: { directory: 'templates' } },
         { label: 'Skills', autogenerate: { directory: 'skills' } },
-        {
-          label: 'Reference',
-          items: [{ label: 'Plan & strategy', link: '/plan/' }],
-        },
       ],
     }),
   ],

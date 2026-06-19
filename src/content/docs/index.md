@@ -8,8 +8,7 @@ operating contract — that make delivery *run*, not just advise.
 ProductOS is the method. The working example in action is
 **[switchroom](https://github.com/switchroom/switchroom)**.
 
-> Augment the judgment, automate the delivery. Private for now; a public
-> "lite" kit is a later export.
+> Augment the judgment, automate the delivery.
 
 ---
 
