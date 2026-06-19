@@ -150,7 +150,7 @@ TTD is the inverse of MTTR for our category. As TTD drops, customer-side through
 
 ---
 
-## What's next
+## Related
 
 - **[Product Principles](/productos-site/anchors/product-principles/)** — Turning the vision into engineering standards (the second anchor).
 - **[Invariants](/productos-site/anchors/invariants/)** — The lines you won't cross by construction (the third anchor); the vision names them, this doc owns them.
