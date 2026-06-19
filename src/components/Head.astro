@@ -19,8 +19,11 @@ const rawSlug = entry.id.replace(/\.(md|mdx)$/, '').replace(/\/index$/, '');
 const slug = rawSlug || 'index';
 const pageUrl = `${siteUrl}${base}/${rawSlug ? rawSlug + '/' : ''}`;
 
-// OG image generated at build time by src/pages/og/[...slug].ts
-const ogImage = `${siteUrl}${base}/og/${slug}.png`;
+// OG image: use customSocialImage frontmatter if set, otherwise fall back to generated card
+const customSocialImage: string | undefined = (entry.data as Record<string, unknown>).customSocialImage as string | undefined;
+const ogImage = customSocialImage
+  ? (customSocialImage.startsWith('http') ? customSocialImage : `${siteUrl}${base}/${customSocialImage.replace(/^\//, '')}`)
+  : `${siteUrl}${base}/og/${slug}.png`;
 ---
 
 <Default><slot /></Default>
