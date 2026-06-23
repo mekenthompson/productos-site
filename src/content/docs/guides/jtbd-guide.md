@@ -15,7 +15,9 @@ JTBD shifts focus from *what we're building* to *why customers need it*. Instead
 
 **Key insight:** Products come and go. The underlying job stays. Understanding the job creates better, more durable solutions.
 
-> **Job story vs Job Spec.** This guide teaches the job *story* — a single sentence (`When… [persona] wants to… so they can…`) used inside a [Job Spec](/productos-site/templates/job-spec/) or an [RFC](/productos-site/templates/rfc/). A **Job Spec** is the *standing document* built around that job: one per job, with `job` / `outcome` / `stakes` frontmatter, that **outlives any single RFC or implementation**. Write the sentence here; promote durable, cross-cutting jobs into a standing doc with the [Job Spec template](/productos-site/templates/job-spec/). See [Agentic Delivery](/productos-site/guides/agentic-delivery/) for how the standing doc anchors agent-delivered work.
+:::note[Job story vs Job Spec]
+This guide teaches the job *story* — a single sentence (`When… [persona] wants to… so they can…`) used inside a [Job Spec](/productos-site/templates/job-spec/) or an [RFC](/productos-site/templates/rfc/). A **Job Spec** is the standing document built around that job: one per job, with `job` / `outcome` / `stakes` frontmatter, that outlives any single RFC or implementation. Write the sentence here; promote durable, cross-cutting jobs into a standing doc with the [Job Spec template](/productos-site/templates/job-spec/). See [Agentic Delivery](/productos-site/guides/agentic-delivery/) for how the standing doc anchors agent-delivered work.
+:::
 
 ---
 

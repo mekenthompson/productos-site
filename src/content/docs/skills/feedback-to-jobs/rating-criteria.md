@@ -1,5 +1,6 @@
 ---
 title: Rating Criteria
+description: How to rate each feedback theme on severity, trend, and strategic alignment, independently, from evidence, so the three axes can disagree when they should.
 ---
 Three ratings sit in every theme's frontmatter. Rate from evidence in the cluster, not gut feel — and write the one line of reasoning that justifies each, so the rating can be checked.
 
@@ -31,4 +32,6 @@ Alignment is about the product's direction, not the job's loudness. A high-sever
 
 ## The honest-rating rule
 
+:::note
 Don't let one rating bleed into the others. A loud job is not automatically high-severity, and a high-severity job is not automatically aligned. Rate each axis on its own evidence; the value of three separate ratings is that they can disagree.
+:::
