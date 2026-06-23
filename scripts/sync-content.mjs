@@ -24,8 +24,9 @@ const DEST = path.join(ROOT, 'src', 'content', 'docs');
 // Map of source-relative path -> dest-relative path (under src/content/docs).
 // dest path determines the Starlight route (route = dest minus .md, slugified).
 const FILES = [
-  // site home — the README is the ProductOS front door
-  ['README.md', 'index.md'],
+  // NOTE: index.md (site homepage) is intentionally NOT synced from README.md.
+  // The homepage is a standalone committed file at src/content/docs/index.mdx —
+  // edit it there. The repo README.md is the GitHub readme only.
   // orientation (root)
   ['AGENTS.md', 'AGENTS.md'],
   // anchors
@@ -158,11 +159,30 @@ async function sourceExists() {
   }
 }
 
+// Files under DEST that are committed directly to this repo (not synced from
+// the source). These are saved before the sync wipe and restored after so they
+// survive a full clean-and-rebuild cycle.
+const COMMITTED_DOCS = [
+  'index.mdx',
+];
+
 async function main() {
   if (!(await sourceExists())) {
     console.log(`[sync] source not found at ${SOURCE} — skipping (using committed copy in ${path.relative(ROOT, DEST)}).`);
     return;
   }
+
+  // Save committed docs before wiping the directory.
+  const saved = new Map();
+  for (const rel of COMMITTED_DOCS) {
+    const p = path.join(DEST, rel);
+    try {
+      saved.set(rel, await fs.readFile(p, 'utf8'));
+    } catch {
+      // File may not exist yet on first run — that's fine.
+    }
+  }
+
   // clean docs dir
   await fs.rm(DEST, { recursive: true, force: true });
   await fs.mkdir(DEST, { recursive: true });
@@ -199,6 +219,16 @@ async function main() {
     const destPath = path.join(DEST, destRel);
     await fs.mkdir(path.dirname(destPath), { recursive: true });
     await fs.copyFile(srcPath, destPath);
+  }
+
+  // Restore committed docs that were saved before the wipe.
+  for (const [rel, content] of saved) {
+    const p = path.join(DEST, rel);
+    await fs.mkdir(path.dirname(p), { recursive: true });
+    await fs.writeFile(p, content, 'utf8');
+  }
+  if (saved.size) {
+    console.log(`  restored ${saved.size} committed doc(s): ${[...saved.keys()].join(', ')}`);
   }
 
   console.log(`synced ${count} docs + ${IMAGES.length} images into ${path.relative(ROOT, DEST)}`);
