@@ -36,7 +36,7 @@ const FILES = [
   ...['agentic-delivery', 'jtbd-guide', 'org-as-an-api', 'product-specs']
     .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates — the OS blank shapes
-  ...['job-spec', 'job-links', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
+  ...['product-spec', 'job-spec', 'job-links', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
   ['skills/feedback-to-jobs/SKILL.md', 'skills/feedback-to-jobs.md'],
