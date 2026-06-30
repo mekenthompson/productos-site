@@ -162,3 +162,11 @@ When conducting customer interviews:
 - [5 Tips for Writing a Job Story](https://jtbd.info/5-tips-for-writing-a-job-story-7c9092911fc9) — Alan Klement
 - [When Coffee and Kale Compete](http://www.whencoffeeandkalecompete.com/) — Free book on JTBD
 - [Know Your Customers' Jobs to Be Done](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done) — HBR article by Clayton Christensen
+
+---
+
+## Related
+
+- [Job Spec template](/productos-site/templates/job-spec/) — the standing per-job doc the job story lives inside
+- [Writing an RFC](/productos-site/guides/product-specs/) — the ship-coupled delivery doc that opens with the job
+- [Agentic Delivery](/productos-site/guides/agentic-delivery/) — how the standing Job Spec anchors agent-delivered work

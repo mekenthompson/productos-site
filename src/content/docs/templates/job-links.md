@@ -96,3 +96,11 @@ Three accounts carry this job, with a combined value in the low hundreds of thou
 ---
 
 > **Wiring:** this file `serves:` exactly one [Job Spec](/productos-site/templates/job-spec/). Keep one Job Links file per job, named for the job, beside the spec it serves (e.g. a `jobs/` folder with `see-everyones-free-time.job.md` and `see-everyones-free-time.links.md`). The Job Spec is the durable contract; this is the evidence that proves the job is worth doing now.
+
+---
+
+## Related
+
+- [Job Spec Template](/productos-site/templates/job-spec/) — the durable outcome contract this file points up to via `serves:`
+- [JTBD Guide](/productos-site/guides/jtbd-guide/) — how to frame the job the linked accounts share
+- [Agentic Delivery](/productos-site/guides/agentic-delivery/) — where the job and its evidence sit in the method

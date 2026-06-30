@@ -298,7 +298,7 @@ When an agent drafts the RFC, or implements against it, the **author cannot grad
 
 ---
 
-## Resources
+## Related
 
 - **Template:** [RFC Template](/productos-site/templates/rfc/)
 - **Job Spec:** [Job Spec Template](/productos-site/templates/job-spec/) — the durable, per-job outcome contract an RFC references
