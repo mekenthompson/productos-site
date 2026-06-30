@@ -1,11 +1,16 @@
 ---
 title: RFC
 description: A JTBD-led, AI-readable RFC for a ship-coupled delivery — defines the user's job, how they fail today, what success and failure look like, and the guardrails — leaving the solution open
-last_reviewed: 2026-05-12
+# Doc-class keys — use exactly one:
+#   serves: <job-spec-slug>     # ship-coupled RFC delivering a job; archives when shipped
+#   backs: <invariant-slug>     # design record elaborating/defending an invariant; stays current
+last_reviewed: 2026-06-24
 icon: "📄"
 ---
 :::note[RFC: optional shape, not a new gate]
 One living document for a single ship-coupled effort. It does the work that used to be split between a PRD (the decision and the why) and a delivery spec (the constraints), but frames everything around the **user's job**, not our internal launch. It leaves *how* open — solutions are the team's (and the AI's) creative work, not the RFC author's prescription. The durable home of the job is its [Job Spec](/productos-site/templates/job-spec/); this RFC is one ship-coupled effort against it.
+
+**Two doc-class variants:** a `serves:` RFC delivers a job and archives when shipped. A `backs:` design record elaborates or defends a named invariant and stays current — it is not ship-coupled and does not archive.
 :::
 
 ---
@@ -18,7 +23,8 @@ One living document for a single ship-coupled effort. It does the work that used
 | **Owner** | [Name] |
 | **Approver** | [Name, role] |
 | **Approval date** | YYYY-MM-DD |
-| **Strategic lever** | [Acquisition / Retention / Expansion / Efficiency — from your strategy] |
+| **Advances outcome** | [which named vision outcome this RFC moves] |
+| **Serves job spec** | [link to the Job Spec it delivers against] |
 | **Tracker** | [Link to project in your issue tracker] |
 
 ---
@@ -45,16 +51,7 @@ If this job has a standing [Job Spec](/productos-site/templates/job-spec/), link
 **Primary persona:** `[Creator / Consumer / Sponsor — or your persona name]`
 **Secondary persona(s) affected (if any):** `[…]`
 
-**Forces around the job:**
-
-| Force | What's pushing or pulling | Strength |
-|---|---|---|
-| Push (pain) | Current state hurts because… | High / Med / Low |
-| Pull (attraction) | A new way looks better because… | High / Med / Low |
-| Anxiety (switching cost) | Adopting feels risky because… | High / Med / Low |
-| Habit (inertia) | They've always done it by… | High / Med / Low |
-
-See [JTBD Guide](/productos-site/guides/jtbd-guide/) for the framing.
+See [JTBD Guide](/productos-site/guides/jtbd-guide/) for framing the job and the forces around it.
 
 ---
 
@@ -131,6 +128,11 @@ What cannot break, regardless of how creative the solution is. These are the con
 - `[e.g., "No new PII collected without explicit consent"]`
 - `[e.g., "Action must be reversible within 24h"]`
 
+**Invariant guardrails** (see [Invariants](/productos-site/anchors/invariants/)):
+- `[invariant-slug]` — this work must not cross it. One-question test: …
+- `[invariant-slug]` — this work must not cross it. One-question test: …
+- `[invariant-slug]` — this work must not cross it. One-question test: …
+
 **Out of scope (we will not do this, even if asked):**
 - …
 - …
@@ -156,11 +158,6 @@ This is the freedom-and-constraint envelope. **Describe the shape of an acceptab
 - Storage, query patterns, internal data model
 - Whether to add a new surface or modify an existing one
 - [Other dimensions left open]
-
-**Known approaches that might work** (illustrative, not prescriptive):
-- Option A: `[one-line sketch]` — what it'd be good at, where it'd struggle.
-- Option B: `[one-line sketch]` — …
-- Option C: `[one-line sketch]` — …
 
 ---
 
@@ -210,20 +207,12 @@ How we ship this safely.
 
 ---
 
-## Open Questions
-
-Things we genuinely don't know yet, and how we'll resolve them.
-
-- [ ] `[Question]` — will be answered by `[experiment / research / build-and-measure]` by `[date]`
-- [ ] `[Question]` — …
-
----
-
 ## Related
 
 - [RFC guide](/productos-site/guides/product-specs/) — how to write this document
 - [Product Vision](/productos-site/anchors/product-vision/) — the anchor every RFC ties back to
 - [Product Principles](/productos-site/anchors/product-principles/) — the standards the solution must meet
+- [Invariants](/productos-site/anchors/invariants/) — the by-construction lines this work must not cross
 - [Job Spec Template](/productos-site/templates/job-spec/) — the durable per-job outcome doc an RFC references
 - [JTBD Guide](/productos-site/guides/jtbd-guide/) — framing the job
 - [Agentic Delivery](/productos-site/guides/agentic-delivery/) — the verdict rule and the gates this RFC clears
