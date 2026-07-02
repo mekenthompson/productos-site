@@ -19,6 +19,8 @@ JTBD shifts focus from *what we're building* to *why customers need it*. Instead
 **Job story vs Job Spec**
 
 This guide teaches the job *story* — a single sentence (`When… [persona] wants to… so they can…`) used inside a [Job Spec](/productos-site/templates/job-spec/) or an [RFC](/productos-site/templates/rfc/). A **Job Spec** is the standing document built around that job: one per job, with `job` / `outcome` / `stakes` frontmatter, that outlives any single RFC or implementation. Write the sentence here; promote durable, cross-cutting jobs into a standing doc with the [Job Spec template](/productos-site/templates/job-spec/). See [Agentic Delivery](/productos-site/guides/agentic-delivery/) for how the standing doc anchors agent-delivered work.
+
+**The rule the Job Spec references:** a Job Spec carries a **struggling moment (required)** — one concrete, present-tense trigger, *"When X happens, the user is stuck because…"* — and a **per-persona job story**: write **one** story if a single persona hires the job, and add more **only** when the job genuinely differs by persona, not one per persona out of habit.
 :::
 
 ---
