@@ -33,10 +33,15 @@ const FILES = [
   ...['product-vision', 'product-principles', 'invariants']
     .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),
   // guides — the OS method
-  ...['agentic-delivery', 'jtbd-guide', 'org-as-an-api', 'product-specs']
+  ...['agentic-delivery', 'strategy-as-code', 'jtbd-guide', 'org-as-an-api', 'product-specs']
     .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates — the OS blank shapes
-  ...['product-spec', 'job-spec', 'job-links', 'rfc'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
+  ...['strategy', 'product-spec', 'job-spec', 'job-links', 'rfc', 'decision-record'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
+  // examples — the Tempo worked example
+  ['examples/strategy-example/README.md', 'examples/tempo-overview.md'],
+  ['examples/strategy-example/STRATEGY.md', 'examples/tempo-strategy.md'],
+  ['examples/strategy-example/decisions/2026-01-15-initial-h1-strategy.md', 'examples/tempo-decision-2026-01.md'],
+  ['examples/strategy-example/decisions/2026-04-22-gridline-integration-move.md', 'examples/tempo-decision-2026-04.md'],
   // skills: flatten <x>/SKILL.md -> skills/<x>.md
   ['skills/create-job-spec/SKILL.md', 'skills/create-job-spec.md'],
   ['skills/feedback-to-jobs/SKILL.md', 'skills/feedback-to-jobs.md'],

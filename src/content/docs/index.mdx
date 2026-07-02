@@ -1,13 +1,15 @@
 ---
 title: ProductOS
-description: "Augment the judgment, automate the delivery. How I run product in the agentic era."
+description: "Product execution guidance for humans and agents. The right context, at every layer, for the right call."
 template: splash
 hero:
   title: ProductOS
   tagline: "Augment the judgment, automate the delivery."
   text: >
-    How I run product in the agentic era. The thinking that decides what's worth
-    building, and the operating system that ships it without losing the plot.
+    Product execution guidance for humans and agents. The right context at
+    every layer, from strategy to product to a single job, so whoever's working
+    there makes the right call. Judgement for the humans, executable guidance
+    and automation for the agents.
   actions:
     - text: Start with the method
       link: /productos-site/guides/agentic-delivery/
@@ -19,16 +21,16 @@ hero:
       variant: secondary
 ---
 
-import { Card, CardGrid, LinkCard, Aside, Badge } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, Aside } from '@astrojs/starlight/components';
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img
     src="/productos-site/img/hero-org-as-an-api.png"
-    alt="The Org as an API — a before/after diagram showing how product, support, CRM and finance signals are sequenced around the Job to be Done"
+    alt="The Org as an API: a before/after diagram showing how product, support, CRM and finance signals are sequenced around the Job to be Done"
     style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.12);"
   />
   <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: var(--sl-color-gray-3);">
-    The Org as an API — sequence the roadmap by joining feedback, support, CRM and finance around the job.
+    The Org as an API: sequence the roadmap by joining feedback, support, CRM and finance around the job.
   </figcaption>
 </figure>
 
@@ -36,29 +38,44 @@ import { Card, CardGrid, LinkCard, Aside, Badge } from '@astrojs/starlight/compo
 
 An agent can draft the spec, write the code, and run the tests before you've
 booked the kickoff. The bottleneck moved. It isn't capacity any more. It's
-knowing whether the thing is right, and catching it when it isn't.
+whether everyone touching the work, human or agent, has the context to make the
+right call, and whether someone catches it when they don't.
 
-ProductOS keeps judgment in the loop while everything underneath runs at agent speed.
+ProductOS is that context. A layered set of documents that carry each decision
+down the chain, so judgement stays in the loop while the work runs at agent
+speed.
 
-## Two halves of one job
+## The right context, for whoever's deciding
+
+Product isn't one decision. It's a chain of them, at different altitudes.
+ProductOS gives each layer its own document, so whoever's working there, a PM,
+an engineer, a designer, PMM, or an agent, has exactly the context that layer
+needs and nothing it doesn't.
 
 <CardGrid>
-  <Card title="The craft">
-    How you decide what's worth building. Discovery, jobs-to-be-done,
-    the calls that never show up in a changelog.
+  <Card title="Strategy">
+    Given finite capacity, which jobs are funded now and which are deferred, and
+    why. The context leadership and PMM work from.
 
-    <Badge text="Coming across from the playbook" variant="caution" />
+    [Strategy as code](/productos-site/guides/strategy-as-code/)
   </Card>
-  <Card title="The delivery OS">
-    How it gets built and verified, agentically. Anchors that
-    hold, Job Specs that prove outcomes, a gate that decides what ships.
+  <Card title="Product definition">
+    What the product is, the outcomes it drives, and the jobs it owns. The
+    anchors that hold and the product spec that lists the work.
 
-    <Badge text="Live now" variant="success" />
+    [Anchors](/productos-site/anchors/product-vision/) · [Product spec](/productos-site/templates/product-spec/)
+  </Card>
+  <Card title="Job definition">
+    The durable, outcome-focused contract for a single job, proven by its UAT.
+    What engineering and design build against.
+
+    [Job spec](/productos-site/templates/job-spec/)
   </Card>
 </CardGrid>
 
-The delivery OS is here in full today. The craft is coming across from my
-product playbook, piece by piece.
+Humans read these to make the judgement calls. Agents read the same documents
+as executable guidance, with automation and skills layered on top to navigate
+the chain without losing the plot. One source of context, both audiences.
 
 ## One rule decides what ships
 
@@ -67,7 +84,7 @@ A change ships only when it advances a vision outcome, satisfies its Job Spec,
 passes every principle, and crosses no invariant.
 </Aside>
 
-Agents build fast inside those gates. You own the gates.
+Agents build fast inside those gates. Humans own the gates.
 
 ## See it work
 
