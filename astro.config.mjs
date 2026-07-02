@@ -46,6 +46,7 @@ export default defineConfig({
           label: 'Method (guides)',
           items: [
             { label: 'The method: Agentic Delivery', link: '/guides/agentic-delivery/' },
+            { label: 'Worked example: a job through the loop', link: '/guides/worked-example/' },
             { label: 'JTBD Guide', link: '/guides/jtbd-guide/' },
             { label: 'The Anchor Signal', link: '/guides/headline-metric/' },
             { label: 'Writing an RFC', link: '/guides/product-specs/' },
