@@ -22,7 +22,7 @@ Every system keys off something different. In B2B SaaS the one thing they share 
 
 ## Frontmatter
 
-Your Job Links file opens with this frontmatter. Replace the values, keep the shape. Every field here is illustrative — the example is a fictional team-scheduling app, not a real company.
+Your Job Links file opens with this frontmatter. Replace the values, keep the shape. Every field here is illustrative: the example is a fictional team-scheduling app, not a real company.
 
 ```yaml
 serves: see-everyones-free-time-at-once   # the Job Spec this links to (its filename / job id)
@@ -71,9 +71,9 @@ captured: 2026-03-11                       # when this snapshot was pulled. it a
 |---|---|---|---|---|---|---|
 | FitClub | $120K | Renewal | 2026-09-30 | Negotiation | 24 | P1 |
 | BrightSmile | $60K | Expansion | 2026-11-15 | Meeting Set | 11 | P1 |
-| CityCare | $35K | New | — | Discovery | 6 | P2 |
+| CityCare | $35K | New | n/a | Discovery | 6 | P2 |
 
-> **Demand** is the count of feedback tickets clustered under this job — the size of the ask. **Priority** is where the job sits on the roadmap. The two together are the argument: a big, well-evidenced problem with money and a date attached.
+> **Demand** is the count of feedback tickets clustered under this job: the size of the ask. **Priority** is where the job sits on the roadmap. The two together are the argument: a big, well-evidenced problem with money and a date attached.
 
 ---
 
@@ -81,13 +81,13 @@ captured: 2026-03-11                       # when this snapshot was pulled. it a
 
 > One to three short paragraphs reading the table back as a decision. Size of demand, names behind it, money riding on it, the dates that money is tied to.
 
-Three accounts carry this job, with a combined value in the low hundreds of thousands. One is in active renewal inside the quarter, one is an open expansion, one is new pipeline. The same problem shows up in support as a steady drip, which is sentiment the feedback count alone doesn't capture. That is what you sequence against — not the loudest request, the best-evidenced one with the stakes attached.
+Three accounts carry this job, with a combined value in the low hundreds of thousands. One is in active renewal inside the quarter, one is an open expansion, one is new pipeline. The same problem shows up in support as a steady drip, which is sentiment the feedback count alone doesn't capture. That is what you sequence against: not the loudest request, the best-evidenced one with the stakes attached.
 
 ---
 
 ## Reconciliation notes
 
-> *Optional.* Where the join was non-obvious, and how you resolved it. This is the honest part — the matches that needed a human.
+> *Optional.* Where the join was non-obvious, and how you resolved it. This is the honest part: the matches that needed a human.
 
 - Matched on account name against the existing customer corpus. Accounts seen in support or feedback with **no profile yet** were flagged, not silently dropped.
 - Where a name was ambiguous, reconciled on **shared email domain**. Anything still ambiguous was left for a human, not force-matched.
@@ -101,6 +101,6 @@ Three accounts carry this job, with a combined value in the low hundreds of thou
 
 ## Related
 
-- [Job Spec Template](/productos-site/templates/job-spec/) — the durable outcome contract this file points up to via `serves:`
-- [JTBD Guide](/productos-site/guides/jtbd-guide/) — how to frame the job the linked accounts share
-- [Agentic Delivery](/productos-site/guides/agentic-delivery/) — where the job and its evidence sit in the method
+- [Job Spec Template](/productos-site/templates/job-spec/) -- the durable outcome contract this file points up to via `serves:`
+- [JTBD Guide](/productos-site/guides/jtbd-guide/) -- how to frame the job the linked accounts share
+- [Agentic Delivery](/productos-site/guides/agentic-delivery/) -- where the job and its evidence sit in the method
