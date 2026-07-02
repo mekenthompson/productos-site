@@ -82,9 +82,13 @@ The Job Spec never carries account names, ARR, renewal dates, or anything that d
 
 > What the product must be *able to do* to serve the job. **Must / Won't
 > only** (no "Should"; that's a prioritisation call that drifts). State what
-> the product must be able to do, verb-first, with zero named infrastructure,
-> protocol, or data-type. If you can't strip the proper noun, it's an RFC
-> Solution-Space line, not a requirement. Distinct from **Good / bad**
+> the product must be able to do, verb-first, with zero named vendor or
+> technology nouns (a specific database, queue, framework, or model
+> architecture): those go to the RFC. *Domain* vocabulary is the exception,
+> the nouns that define the customer's job and outcome are durable and belong
+> here, even for a data or ML product where those nouns ARE the job. If you
+> can't strip a vendor or technology noun, it's an RFC Solution-Space line,
+> not a requirement. Distinct from **Good / bad**
 > (user-observable behaviour) and from the RFC's **Solution Space** (this is
 > durable and outcome-level; that is the ship-coupled behavioural contract).
 > Durable product non-goals ("we're the visibility layer, not the
@@ -130,6 +134,11 @@ The Job Spec never carries account names, ARR, renewal dates, or anything that d
 - **<job × surface>**: `<path/to/real/scenario>`. *Watch:* <user-observable
   outcome>. *Invariant:* <the property that must always hold>.
 - ...
+
+> When the outcome is probabilistic, the scenario asserts a threshold on a
+> metric distribution (error within tolerance, precision above a floor),
+> validated against real outcomes, not a single boolean. Drift past the
+> threshold is a failure class the fuzz corpus should cover.
 
 **Fuzz corpus:** vary `<dimensions, e.g. latency × retries × ordering ×
 partial failure>`; the invariants above must hold across the corpus, not

@@ -33,7 +33,7 @@ const FILES = [
   ...['product-vision', 'product-principles', 'invariants']
     .map((n) => [`anchors/${n}.md`, `anchors/${n}.md`]),
   // guides — the OS method
-  ...['agentic-delivery', 'strategy-as-code', 'jtbd-guide', 'org-as-an-api', 'product-specs']
+  ...['agentic-delivery', 'worked-example', 'strategy-as-code', 'jtbd-guide', 'headline-metric', 'org-as-an-api', 'product-specs']
     .map((n) => [`guides/${n}.md`, `guides/${n}.md`]),
   // templates — the OS blank shapes
   ...['strategy', 'product-spec', 'job-spec', 'job-links', 'rfc', 'decision-record'].map((n) => [`templates/${n}.md`, `templates/${n}.md`]),
