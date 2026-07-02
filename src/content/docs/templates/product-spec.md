@@ -41,7 +41,7 @@ Every job the product serves ladders up to exactly one of these. A change
 that advances none of them is out of scope. Each outcome carries one
 **Signal**: a measurable driver of the North Star.
 
-:::caution[Four or fewer, each with a Signal]
+:::caution
 Keep outcomes to four or fewer — more than four means the product hasn't
 made hard choices yet. Each outcome must carry a Signal; an outcome without
 a measurable signal is a slogan.

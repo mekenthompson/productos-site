@@ -6,7 +6,9 @@ icon: "📖"
 ---
 Product principles are the engineering and design standards that turn the [product vision](/productos-site/anchors/product-vision/) into day-to-day quality gates. They are applied in every PR, every design review, every release. They are the "built-well" clause in the [verdict rule](/productos-site/guides/agentic-delivery/): a "no" on any principle is a redesign, not a follow-up.
 
-:::note[The three anchors]
+:::note
+**The three anchors**
+
 Principles are the second of three anchors: **[Vision](/productos-site/anchors/product-vision/)** (why), **Principles** (built well), and **[Invariants](/productos-site/anchors/invariants/)** (lines we won't cross by construction). Together they fuse into the [verdict rule](/productos-site/guides/agentic-delivery/).
 :::
 
@@ -49,7 +51,9 @@ Four properties:
 
 4. **Each has check questions.** Two or three concrete questions a reviewer can ask. Without check questions, principles are interpretation contests.
 
-:::note[Include engineering standards]
+:::note
+**Include engineering standards**
+
 Principles are *engineering and design* standards, not just UX ones. If your product carries real non-functional stakes (security, reliability, scalability, availability, performance), at least one principle should make that bar checkable. A feature can be a delight and still fail because it leaks data or falls over under load. This matters most when an agentic workforce does the building: the non-functional bar is what engineering oversight enforces (see [Agentic Delivery](/productos-site/guides/agentic-delivery/)).
 :::
 
@@ -174,9 +178,13 @@ Before you ship, ask:
 2. **Trade-off test:** Where principles are in tension, which one did you prioritise and why?
 3. **Consistency test:** Would a reviewer who doesn't know your team make the same call?
 
+:::caution
 If you can't answer all three, you're not done. Redesign, don't ship and patch later.
+:::
 
-:::tip[Principles judge Job Specs, they don't replace them]
+:::tip
+**Principles judge Job Specs, they don't replace them**
+
 A change can satisfy its [Job Spec](/productos-site/templates/job-spec/) (it does the user's job) and still fail a principle check (it was built badly). When that happens, the job is the goal; the principles are how you get there without making the product feel like a kit. Both must pass: the all-must-pass gate across the vision outcome, the Job Spec, the principles, and the invariants is the **verdict rule**. See [Agentic Delivery](/productos-site/guides/agentic-delivery/).
 :::
 

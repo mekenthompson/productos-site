@@ -6,7 +6,9 @@ icon: "🎯"
 ---
 > The product vision is the single source of truth that every other artifact ties back to. Strategy, the Product Spec, every Job Spec, every RFC: they all reference the vision either to justify a "yes" or explain a "not now." If the vision is vague, everything downstream gets vague too.
 
-:::note[The three anchors]
+:::note
+**The three anchors**
+
 The vision is the first of three anchors that hold for the whole product: **Vision** (why we build), **[Principles](/productos-site/anchors/product-principles/)** (what "built well" means), and **[Invariants](/productos-site/anchors/invariants/)** (the lines we won't cross by construction). The vision names the invariants that matter; the Invariants doc owns them. Beneath the anchors sit the **Product Spec** (one per product) and the **Job Specs** (one per job). See [Agentic Delivery](/productos-site/guides/agentic-delivery/) for how the anchors fuse into the verdict rule.
 :::
 
@@ -37,7 +39,9 @@ If those three questions aren't answered crisply, nothing downstream can help yo
 | [RFC Template](/productos-site/templates/rfc/) | A ship-coupled RFC names which vision outcome it advances and which Job Spec it serves — confirmed in the Status table. |
 | [Agentic Delivery](/productos-site/guides/agentic-delivery/) | The vision's outcomes, the Job Specs, the principles, and the invariants fuse into the **verdict rule** — the all-must-pass gate every change clears. The invariants are its kill-clause. |
 
+:::note
 If you change the vision, expect everything above to need re-anchoring. That's a feature, not a bug. Vision changes are rare and consequential.
+:::
 
 ---
 

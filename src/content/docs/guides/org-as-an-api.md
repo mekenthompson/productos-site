@@ -16,7 +16,9 @@ A system you can query is a system you can reason over. If it has an API, a CLI,
 
 So you stop waiting for the systems to be wired together and wire them yourself, around one unit they all share. Call it the org as an API: every function owns its system of record, and you make them answerable together.
 
-:::tip[Sequencing, not strategy]
+:::tip
+**Sequencing, not strategy**
+
 This is a sequencing tool, not a strategy tool. It assumes you already know the capabilities you want and why. What it grounds is the order: what ships first when everything looks important from the inside.
 :::
 
@@ -77,7 +79,9 @@ What floats a job to the top is the **weight of the problem**: how many accounts
 
 The view gives you a grounded starting order. It is not the finished roadmap. A human still allocates the weighted work across the engineering teams that can actually do it, against their real capacity. That mechanics lives in the capacity and allocation guide.
 
-:::note[The org-structure signal]
+:::note
+**The org-structure signal**
+
 Sometimes the evidence shows your team structure doesn't match the opportunity. The highest-impact work sits across a seam no single team owns, or piles on a team with no room. That's a reorg signal, not a sequencing one. The join surfaces it early, while you can still move seats.
 :::
 
@@ -99,7 +103,9 @@ The trap is to read all this as "optimise the roadmap for revenue." It isn't, an
 
 The org-as-an-API gets you to a defensible ordering with the evidence attached. It does **not** decide whether to protect a strategic account, chase a new logo, or fund a bet the data can't yet see. A deliberate slice of capacity can and should go to jobs the revenue signal alone would under-weight: problems customers will have soon, or already have and can't yet name. Write those up as Job Specs too, and map them to the accounts you believe hit the problem first.
 
+:::note
 So the machine makes the trade-off legible, and then you make the call. That's the line. It makes the question answerable. You still answer it.
+:::
 
 ---
 

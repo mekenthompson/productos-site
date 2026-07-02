@@ -155,6 +155,34 @@ function rewriteLinks(body, srcRelDir) {
     });
 }
 
+// Convert GitHub-style alert blockquotes into Starlight aside directives.
+// The source uses GH alerts (`> [!NOTE]`) because they render natively on
+// GitHub; the site needs `:::note` directives to render styled asides.
+const ALERT_TYPE = { NOTE: 'note', TIP: 'tip', IMPORTANT: 'note', WARNING: 'caution', CAUTION: 'caution' };
+function alertsToAsides(body) {
+  const lines = body.split('\n');
+  const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^>\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*(.*)$/i);
+    if (!m) { out.push(lines[i]); continue; }
+    const type = ALERT_TYPE[m[1].toUpperCase()] || 'note';
+    const titleExtra = m[2].trim();
+    const content = [];
+    let j = i + 1;
+    while (j < lines.length && /^>/.test(lines[j])) {
+      content.push(lines[j].replace(/^>\s?/, ''));
+      j++;
+    }
+    while (content.length && content[0].trim() === '') content.shift();
+    while (content.length && content[content.length - 1].trim() === '') content.pop();
+    out.push(titleExtra ? `:::${type}[${titleExtra}]` : `:::${type}`);
+    out.push(...content);
+    out.push(':::');
+    i = j - 1;
+  }
+  return out.join('\n');
+}
+
 async function sourceExists() {
   try {
     await fs.access(path.join(SOURCE, 'README.md'));
@@ -200,6 +228,7 @@ async function main() {
     const srcRelDir = path.posix.dirname(normalize(srcRel));
 
     let newBody = rewriteLinks(body, srcRelDir === '.' ? '' : srcRelDir);
+    newBody = alertsToAsides(newBody);
 
     let newFm = fm;
     if (!hasTitle(fm)) {

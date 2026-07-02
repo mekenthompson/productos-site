@@ -6,7 +6,9 @@ icon: "📖"
 ---
 One document. Not two.
 
-:::note[An RFC is not a named tier of its own]
+:::note
+**An RFC is not a named tier of its own**
+
 It's the ship-coupled, per-initiative delivery layer that sits beneath the anchors ([Vision](/productos-site/anchors/product-vision/), [Principles](/productos-site/anchors/product-principles/), [Invariants](/productos-site/anchors/invariants/)), the product-level **Product Spec** (which owns the job list), and the **[Job Specs](/productos-site/templates/job-spec/)**. It's your existing RFC/PR process for one piece of work; this guide is a reference shape for it, not a new gate.
 
 **Two doc-class variants live under the RFC shape.** An artifact ladders via `serves: <job-spec-slug>` (a ship-coupled RFC delivering a job; it archives when shipped) or via `backs: <invariant-slug>` (a design record that elaborates or defends a named invariant rather than delivering a job; it stays current and does not archive). The doc-class is declared in frontmatter. Use the `serves:` path for normal delivery work; use `backs:` for standing architectural and security rationale that underpins an invariant.
@@ -162,7 +164,9 @@ Plus **leading indicators** — early signals (≤ 2 weeks post-launch) that tel
 
 ### User Failure Modes
 
+:::caution
 This is the section most teams skip. **Don't.** If you can't name how the user would fail, you don't understand the job well enough.
+:::
 
 For each failure mode, name the **detection signal**: how would you know in production that this is happening? Without detection signals, failure modes are theoretical.
 

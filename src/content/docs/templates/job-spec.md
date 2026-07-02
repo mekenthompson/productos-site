@@ -11,7 +11,7 @@ stakes: <what breaks, and why it matters, if you get this wrong>
 serves: <outcome-slug from Product Spec>
 invariants: [<named lines this job must never cross, by construction>]
 ---
-:::caution[Keep this file clean]
+:::caution
 The Job Spec never carries account names, ARR, renewal dates, or anything that drifts. That join lives in a separate [Job Links](/productos-site/templates/job-links/) file that points up to this spec via `serves:`. Couple a durable thing to a moving one and you get a spec that's stale by next quarter.
 :::
 

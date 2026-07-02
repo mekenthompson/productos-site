@@ -35,3 +35,8 @@ Alignment is about the product's direction, not the job's loudness. A high-sever
 :::note
 Don't let one rating bleed into the others. A loud job is not automatically high-severity, and a high-severity job is not automatically aligned. Rate each axis on its own evidence; the value of three separate ratings is that they can disagree.
 :::
+
+## Related
+
+- [Theme Structure](/productos-site/skills/feedback-to-jobs/theme-structure/) — where these three ratings live in the frontmatter
+- [Feedback to Jobs](/productos-site/skills/feedback-to-jobs/) — the skill that produces the themes you rate

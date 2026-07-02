@@ -75,11 +75,13 @@ each finding separately; they get different fixes (spec edit vs code change).
 Propose the change that makes the **outcome** deterministic. Then apply the
 arbiter:
 
-> **The fuzz corpus is the arbiter of "outcome-fixed" vs "bug-patched."**
-> A change is outcome-true only if the UAT-for-the-outcome passes ACROSS the
-> corpus, not just the happy path. If your patch is green on the happy path but
-> the corpus still breaks an invariant, you patched the bug. You didn't solve
-> the outcome.
+:::note
+**The fuzz corpus is the arbiter of "outcome-fixed" vs "bug-patched."**
+A change is outcome-true only if the UAT-for-the-outcome passes ACROSS the
+corpus, not just the happy path. If your patch is green on the happy path but
+the corpus still breaks an invariant, you patched the bug. You didn't solve
+the outcome.
+:::
 
 Common tell: the one-line fix (bump a timeout, add a retry) clears the reported
 symptom but leaves an invariant (idempotency, ordering, terminal-state)
@@ -128,3 +130,10 @@ double-write. Encoded as a 60-schedule property test.
 double-fire still double-writes → not outcome-true. The outcome-true fix added
 **idempotent proposals** (collapse identical in-flight proposals → exactly-once
 apply) on top of the per-op timeout. Shipped as switchroom PR #2381.
+
+---
+
+## Related
+
+- [Agentic Delivery](/productos-site/guides/agentic-delivery/) — the outcome-UAT gate this skill debugs against
+- [Job Spec Template](/productos-site/templates/job-spec/) — the job-spec clauses Step 1 maps failures to

@@ -8,7 +8,7 @@ This guide is the heart of the method: how delivery runs when **an agentic workf
 
 It is written for the whole triad: **product, design, and engineering**. Engineering is not a footnote here: when agents write the code, the scarce thing is no longer engineering hours, it's **judgement and oversight**, and engineers are the ones who set the technical bar the agents build to.
 
-:::note[Read alongside]
+:::note
 Read this guide alongside [Product Vision](/productos-site/anchors/product-vision/), [Product Principles](/productos-site/anchors/product-principles/), and your [Invariants](/productos-site/anchors/invariants/) (the three anchors), and the [JTBD Guide](/productos-site/guides/jtbd-guide/) (the job-story sentence and the Job Specs that carry it). The terse, agent-executable version of everything below lives in **[AGENTS.md](/productos-site/agents/)** under "Agentic Delivery — operating contract."
 :::
 
@@ -29,7 +29,7 @@ So the method keeps four artifacts as the constants that **don't move while the 
 "Four" describes this method's anatomy, not a law for your product. A product picks its own small number of vision outcomes, principles, and invariants (see [Product Vision](/productos-site/anchors/product-vision/) and [Product Principles](/productos-site/anchors/product-principles/)). Keep those sets small; keep these four parts.
 :::
 
-:::note[Artifact hierarchy, top to bottom]
+:::note
 The three **anchors** (vision, principles, invariants) hold for the whole product. Beneath them, a **Product Spec**, one per product, names the product's outcomes, says how the product functions, and owns the list of jobs. Beneath that sit the **Job Specs**, one per job, durable and outcome-focused. RFCs / PRs are the ship-coupled, per-initiative delivery layer that references a Job Spec; they are not a named spec tier of their own.
 :::
 
@@ -69,7 +69,7 @@ Work starts from a Job Spec, not a blank page. The loop:
 2. **Build it, with tests that pin the behaviour.** A change lands with a test that fails before and passes after. Pick the test shape to the work: example tests for ordinary modules, property/fuzz tests for state machines and pure functions.
 3. **Review adversarially, with a fresh process.** This is the part most teams skip and the part that matters most when an agent wrote the code.
 
-:::caution[The author cannot grade its own work]
+:::caution
 The reviewer must be a **separate process** (a different agent with fresh context, or a human) that did not write the change. It returns an explicit verdict: APPROVE / REQUEST_CHANGES / BLOCK, and cites a specific location for every blocker. Iterate until APPROVE. Do not let an automated merge fire before the reviewer has approved. A green test suite is necessary, not sufficient.
 :::
 
@@ -109,6 +109,15 @@ The anchors, the Job Spec, and the gates fuse into one decision. A change ships 
 4. It **crosses no invariant**: the lines you won't cross by construction (see [Product Vision](/productos-site/anchors/product-vision/) and your invariants).
 
 Anything else is out of scope, **however clever it seems.** The four clauses are orthogonal: the vision says *is it ours to build*, the Job Spec says *did it do the job*, the principles say *did we build it well*, the invariants say *are we even allowed*. All must pass independently.
+
+### Scale the gates to the path
+
+The verdict rule is all-must-pass, but "pass" is proportional. A Quick Win
+passes with a Tech Lead's nod and an outcome sanity check. A payments change
+runs every gate at full depth. The gates never disappear — their *depth* tracks
+the stakes. This is what stops the method reading as a speed tax. The
+[Decision Framework](../pm-playbook/decision-framework.md) sets the paths
+(Quick Win / Lightweight / Full Spec).
 
 ---
 

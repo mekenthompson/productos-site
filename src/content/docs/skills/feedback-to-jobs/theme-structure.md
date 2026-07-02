@@ -109,3 +109,8 @@ Split a theme when:
 - the solutions would ship independently
 
 Find the seam, create focused sub-themes, redistribute the items, and update each `feedback_count`. A theme that's just "lots of feedback about X" is a folder, not a job — splitting it into real jobs is the point.
+
+## Related
+
+- [Rating Criteria](/productos-site/skills/feedback-to-jobs/rating-criteria/) — how to rate the severity, trend, and alignment lines in the frontmatter
+- [Feedback to Jobs](/productos-site/skills/feedback-to-jobs/) — the skill that produces theme files with this structure

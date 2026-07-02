@@ -7,7 +7,7 @@ description: A JTBD-led, AI-readable RFC for a ship-coupled delivery — defines
 last_reviewed: 2026-06-24
 icon: "📄"
 ---
-:::note[RFC: optional shape, not a new gate]
+:::note
 One living document for a single ship-coupled effort. It does the work that used to be split between a PRD (the decision and the why) and a delivery spec (the constraints), but frames everything around the **user's job**, not our internal launch. It leaves *how* open — solutions are the team's (and the AI's) creative work, not the RFC author's prescription. The durable home of the job is its [Job Spec](/productos-site/templates/job-spec/); this RFC is one ship-coupled effort against it.
 
 **Two doc-class variants:** a `serves:` RFC delivers a job and archives when shipped. A `backs:` design record elaborates or defends a named invariant and stays current — it is not ship-coupled and does not archive.
